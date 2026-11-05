@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+# Raw Quest class-search dumps: large, scraped from a signed-in session, reproducible with scripts/scrape_quest.py
+data/raw/

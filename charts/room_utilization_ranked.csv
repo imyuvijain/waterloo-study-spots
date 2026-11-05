@@ -1,0 +1,359 @@
+room,building,building_name,busy_hours_week,free_hours_week,percent_in_class,busy_h_mon,busy_h_tue,busy_h_wed,busy_h_thu,busy_h_fri
+E7 4417,E7,Engineering 7 (Pearl Sullivan Engineering Building),46.2,23.8,66.0,9.7,9.7,10.5,9.7,6.7
+MC 4042,MC,Mathematics & Computer Building,43.3,26.7,61.9,7.2,11.2,8.7,9.3,7.0
+STC 1012,STC,Science Teaching Complex,43.2,26.8,61.7,9.0,9.3,7.7,12.2,5.0
+EV2 1002A,EV2,Environment 2,41.5,28.5,59.3,3.7,9.2,10.7,10.8,7.2
+E5 3102,E5,Engineering 5,40.8,29.2,58.3,9.7,10.7,7.7,7.0,5.8
+HH 1102,HH,J.G. Hagey Hall of the Humanities,39.7,30.3,56.7,8.2,9.8,8.2,10.7,2.8
+M3 1006,M3,Mathematics 3,39.7,30.3,56.7,8.2,8.0,7.7,8.8,7.0
+CPH 1346,CPH,Carl A. Pollock Hall,39.2,30.8,56.0,9.8,5.5,7.5,9.3,7.0
+EXP 1689,EXP,Expansion,38.8,31.2,55.5,7.8,9.8,8.2,8.8,4.2
+HH 1108,HH,J.G. Hagey Hall of the Humanities,38.7,31.3,55.2,5.3,11.2,8.2,11.2,2.8
+E7 4053,E7,Engineering 7 (Pearl Sullivan Engineering Building),38.3,31.7,54.8,7.5,7.7,8.5,8.5,6.2
+BMH 2703,BMH,B.C. Matthews Hall,38.2,31.8,54.5,8.0,8.0,8.0,6.7,7.5
+AL 211,AL,Arts Lecture Hall,37.5,32.5,53.6,11.0,8.0,6.2,11.0,1.3
+E7 4043,E7,Engineering 7 (Pearl Sullivan Engineering Building),37.5,32.5,53.6,7.5,7.8,7.5,6.7,8.0
+MC 1085,MC,Mathematics & Computer Building,37.2,32.8,53.1,9.7,10.3,4.8,8.0,4.3
+EV1 350,EV1,Environment 1,36.8,33.2,52.6,6.5,9.7,8.2,8.0,4.5
+EIT 1015,EIT,Centre for Environmental and Information Technology,36.7,33.3,52.4,7.8,9.3,6.5,8.0,5.0
+EV1 240,EV1,Environment 1,36.7,33.3,52.4,3.7,5.5,11.0,11.0,5.5
+RCH 109,RCH,J.R. Coutts Engineering Lecture Hall,36.7,33.3,52.4,9.2,9.2,9.2,9.2,0.0
+MC 4058,MC,Mathematics & Computer Building,36.5,33.5,52.1,7.5,9.5,5.0,8.7,5.8
+MC 2038,MC,Mathematics & Computer Building,36.3,33.7,51.9,7.0,8.0,6.5,8.0,6.8
+E5 3101,E5,Engineering 5,36.2,33.8,51.7,6.7,9.2,8.0,8.0,4.3
+RCH 301,RCH,J.R. Coutts Engineering Lecture Hall,36.2,33.8,51.7,8.0,7.0,6.7,7.8,6.7
+HH 1104,HH,J.G. Hagey Hall of the Humanities,36.0,34.0,51.4,9.2,8.2,6.8,9.0,2.8
+DC 1351,DC,William G. Davis Computer Research Centre,35.8,34.2,51.2,7.7,7.2,7.7,7.0,6.3
+STC 0020,STC,Science Teaching Complex,35.8,34.2,51.2,7.8,8.0,7.8,8.0,4.2
+DC 1350,DC,William G. Davis Computer Research Centre,35.7,34.3,51.0,6.5,8.8,5.7,9.7,5.0
+E7 3343,E7,Engineering 7 (Pearl Sullivan Engineering Building),35.3,34.7,50.5,6.3,9.0,7.2,7.8,5.0
+HH 2107,HH,J.G. Hagey Hall of the Humanities,35.3,34.7,50.5,9.2,9.0,6.8,7.0,3.3
+QNC 2502,QNC,Mike & Ophelia Lazaridis Quantum-Nano Centre,35.3,34.7,50.5,7.5,7.5,7.5,5.3,7.5
+STP 105,STP,St. Paul's University College (formerly United College),35.3,34.7,50.5,8.5,10.5,4.3,8.7,3.3
+E7 4433,E7,Engineering 7 (Pearl Sullivan Engineering Building),34.8,35.2,49.8,6.7,7.8,8.5,4.8,7.0
+QNC 1506,QNC,Mike & Ophelia Lazaridis Quantum-Nano Centre,34.8,35.2,49.8,9.3,5.3,9.3,5.3,5.5
+E7 3353,E7,Engineering 7 (Pearl Sullivan Engineering Building),34.7,35.3,49.5,6.8,6.2,9.7,6.2,5.8
+MC 2035,MC,Mathematics & Computer Building,34.7,35.3,49.5,7.0,8.0,5.8,8.0,5.8
+E7 5353,E7,Engineering 7 (Pearl Sullivan Engineering Building),34.5,35.5,49.3,8.0,5.8,8.0,6.8,5.8
+MC 2054,MC,Mathematics & Computer Building,34.5,35.5,49.3,6.2,6.7,10.3,6.7,4.7
+CPH 3681,CPH,Carl A. Pollock Hall,34.3,35.7,49.0,7.7,7.0,6.5,9.0,4.2
+MC 4059,MC,Mathematics & Computer Building,34.3,35.7,49.0,8.0,6.7,7.2,6.7,5.8
+HH 1106,HH,J.G. Hagey Hall of the Humanities,34.2,35.8,48.8,5.3,11.2,5.3,9.5,2.8
+EV2 2052,EV2,Environment 2,34.0,36.0,48.6,0.0,8.5,8.5,8.5,8.5
+QNC 1507,QNC,Mike & Ophelia Lazaridis Quantum-Nano Centre,34.0,36.0,48.6,6.7,8.0,6.7,8.0,4.7
+STC 0010,STC,Science Teaching Complex,34.0,36.0,48.6,6.5,8.0,7.2,8.0,4.3
+EV3 3406,EV3,Environment 3,33.8,36.2,48.3,7.5,8.0,6.7,8.0,3.7
+HH 1101,HH,J.G. Hagey Hall of the Humanities,33.8,36.2,48.3,9.5,5.5,9.5,3.7,5.7
+MC 4060,MC,Mathematics & Computer Building,33.7,36.3,48.1,9.8,6.3,7.0,5.8,4.7
+AL 116,AL,Arts Lecture Hall,33.5,36.5,47.9,7.7,8.0,5.5,8.2,4.2
+E2 1792,E2,Engineering 2,33.5,36.5,47.9,7.8,4.8,7.5,6.8,6.5
+STC 0040,STC,Science Teaching Complex,33.0,37.0,47.1,8.2,6.3,5.8,6.0,6.7
+RCH 103,RCH,J.R. Coutts Engineering Lecture Hall,32.7,37.3,46.7,7.5,5.3,6.7,6.5,6.7
+BMH 1016,BMH,B.C. Matthews Hall,32.5,37.5,46.4,6.0,6.2,7.7,9.0,3.7
+SJ2 1002,SJ2,St. Jerome's University - Academic Centre,32.5,37.5,46.4,6.7,8.2,9.5,8.2,0.0
+EV3 3412,EV3,Environment 3,32.3,37.7,46.2,7.7,5.8,6.7,5.3,6.8
+ML 242,ML,Modern Languages,32.2,37.8,46.0,6.7,10.8,6.7,8.0,0.0
+REN 2106,REN,Renison University College,32.2,37.8,46.0,8.3,6.8,5.5,6.8,4.7
+MC 4045,MC,Mathematics & Computer Building,32.0,38.0,45.7,6.2,8.0,4.8,8.0,5.0
+STC 0050,STC,Science Teaching Complex,32.0,38.0,45.7,7.8,8.0,6.2,7.5,2.5
+E2 1732,E2,Engineering 2,31.7,38.3,45.2,7.5,6.7,6.5,6.7,4.3
+EV3 4408,EV3,Environment 3,31.7,38.3,45.2,6.8,5.3,6.7,8.3,4.5
+MC 2066,MC,Mathematics & Computer Building,31.7,38.3,45.2,6.3,6.8,6.7,6.8,5.0
+ML 354,ML,Modern Languages,31.5,38.5,45.0,6.7,8.8,8.0,8.0,0.0
+RCH 112,RCH,J.R. Coutts Engineering Lecture Hall,31.5,38.5,45.0,7.5,6.7,5.0,6.5,5.8
+MC 4021,MC,Mathematics & Computer Building,31.3,38.7,44.8,6.7,5.7,7.5,4.8,6.7
+MC 4041,MC,Mathematics & Computer Building,31.3,38.7,44.8,7.2,6.7,7.8,6.7,3.0
+AL 105,AL,Arts Lecture Hall,31.2,38.8,44.5,6.2,6.2,6.2,9.0,3.7
+AL 113,AL,Arts Lecture Hall,31.2,38.8,44.5,6.8,6.7,6.0,6.7,5.0
+HH 334,HH,J.G. Hagey Hall of the Humanities,31.2,38.8,44.5,4.7,9.3,7.8,9.3,0.0
+MC 4020,MC,Mathematics & Computer Building,31.2,38.8,44.5,5.8,6.2,5.8,6.7,6.7
+RCH 306,RCH,J.R. Coutts Engineering Lecture Hall,31.2,38.8,44.5,4.8,11.0,4.8,6.2,4.3
+MC 4061,MC,Mathematics & Computer Building,30.8,39.2,44.0,6.3,6.2,6.3,6.2,5.8
+HH 150,HH,J.G. Hagey Hall of the Humanities,30.7,39.3,43.8,6.8,7.5,7.0,9.3,0.0
+PHR 1004,PHR,Pharmacy,30.7,39.3,43.8,5.7,4.7,6.7,6.0,7.7
+ARC 2026,ARC,School of Architecture,30.3,39.7,43.3,6.7,5.7,8.5,6.7,2.8
+MC 2065,MC,Mathematics & Computer Building,30.3,39.7,43.3,6.8,6.7,6.8,6.7,3.3
+EV3 1408,EV3,Environment 3,30.0,40.0,42.9,6.5,6.3,8.3,6.3,2.5
+E5 6006,E5,Engineering 5,29.8,40.2,42.6,5.3,7.2,7.0,4.8,5.5
+EV3 4412,EV3,Environment 3,29.8,40.2,42.6,5.3,3.0,6.2,8.8,6.5
+MC 1056,MC,Mathematics & Computer Building,29.8,40.2,42.6,6.2,6.7,6.2,6.7,4.2
+BMH 1005,BMH,B.C. Matthews Hall,29.7,40.3,42.4,6.8,5.8,5.7,3.8,7.5
+QNC 1502,QNC,Mike & Ophelia Lazaridis Quantum-Nano Centre,29.7,40.3,42.4,5.3,5.5,6.7,5.5,6.7
+RCH 105,RCH,J.R. Coutts Engineering Lecture Hall,29.7,40.3,42.4,6.7,5.5,6.7,5.0,5.8
+HH 280,HH,J.G. Hagey Hall of the Humanities,29.5,40.5,42.1,8.0,3.3,10.7,7.5,0.0
+MC 2034,MC,Mathematics & Computer Building,29.5,40.5,42.1,5.2,7.5,4.3,7.5,5.0
+E5 6008,E5,Engineering 5,29.3,40.7,41.9,5.3,6.3,7.0,4.5,6.2
+E2 3356,E2,Engineering 2,29.0,41.0,41.4,7.5,5.7,7.0,4.7,4.2
+HH 227,HH,J.G. Hagey Hall of the Humanities,29.0,41.0,41.4,5.3,8.5,6.7,8.5,0.0
+OPT 1129,OPT,Optometry,29.0,41.0,41.4,7.3,5.0,5.3,5.0,6.3
+QNC 2501,QNC,Mike & Ophelia Lazaridis Quantum-Nano Centre,29.0,41.0,41.4,6.7,5.3,7.2,7.2,2.7
+E7 5343,E7,Engineering 7 (Pearl Sullivan Engineering Building),28.8,41.2,41.2,2.5,7.3,6.7,6.5,5.8
+RCH 308,RCH,J.R. Coutts Engineering Lecture Hall,28.8,41.2,41.2,5.3,8.7,5.3,6.8,2.7
+MC 2017,MC,Mathematics & Computer Building,28.7,41.3,41.0,6.7,6.2,6.7,6.2,3.0
+EV3 3408,EV3,Environment 3,28.5,41.5,40.7,8.0,5.3,8.0,5.3,1.8
+HH 138,HH,J.G. Hagey Hall of the Humanities,28.5,41.5,40.7,4.2,9.5,8.2,6.7,0.0
+ML 246,ML,Modern Languages,28.5,41.5,40.7,4.8,5.3,8.8,8.7,0.8
+BMH 1703,BMH,B.C. Matthews Hall,28.3,41.7,40.5,2.8,8.0,8.0,6.7,2.8
+EIT 1013,EIT,Centre for Environmental and Information Technology,28.3,41.7,40.5,5.7,2.8,8.5,5.7,5.7
+PHY 150,PHY,Physics,28.3,41.7,40.5,7.7,7.2,4.3,6.2,3.0
+RCH 302,RCH,J.R. Coutts Engineering Lecture Hall,28.2,41.8,40.2,8.5,2.7,7.7,4.3,5.0
+E6 4022,E6,Engineering 6,28.0,42.0,40.0,6.7,6.7,5.3,4.0,5.3
+ML 117,ML,Modern Languages,28.0,42.0,40.0,7.2,6.8,7.2,4.0,2.8
+PHY 313,PHY,Physics,28.0,42.0,40.0,7.5,6.3,6.7,5.0,2.5
+STC 0060,STC,Science Teaching Complex,28.0,42.0,40.0,7.3,4.8,5.0,6.7,4.2
+MC 4064,MC,Mathematics & Computer Building,27.8,42.2,39.8,5.3,5.3,5.5,7.2,4.5
+AL 208,AL,Arts Lecture Hall,27.5,42.5,39.3,5.3,8.0,5.2,8.2,0.8
+DWE 1501,DWE,Douglas Wright Engineering Building,27.3,42.7,39.0,6.3,4.8,6.3,4.8,5.0
+RCH 305,RCH,J.R. Coutts Engineering Lecture Hall,27.3,42.7,39.0,5.3,6.7,3.0,6.7,5.7
+MC 4040,MC,Mathematics & Computer Building,27.2,42.8,38.8,6.5,5.8,6.5,5.8,2.5
+B2 350,B2,Biology 2,26.8,43.2,38.3,5.3,6.7,5.3,6.7,2.8
+REN 2102,REN,Renison University College,26.8,43.2,38.3,6.7,8.2,6.7,5.3,0.0
+HH 336,HH,J.G. Hagey Hall of the Humanities,26.7,43.3,38.1,5.3,8.0,5.3,8.0,0.0
+RCH 106,RCH,J.R. Coutts Engineering Lecture Hall,26.7,43.3,38.1,5.3,8.0,5.3,8.0,0.0
+RCH 211,RCH,J.R. Coutts Engineering Lecture Hall,26.7,43.3,38.1,6.0,5.8,5.8,4.8,4.2
+RCH 212,RCH,J.R. Coutts Engineering Lecture Hall,26.7,43.3,38.1,4.0,5.8,4.0,8.3,4.5
+RCH 309,RCH,J.R. Coutts Engineering Lecture Hall,26.7,43.3,38.1,6.0,6.3,4.2,6.0,4.2
+AL 124,AL,Arts Lecture Hall,26.5,43.5,37.9,7.8,7.8,7.0,2.2,1.7
+RCH 307,RCH,J.R. Coutts Engineering Lecture Hall,26.5,43.5,37.9,6.2,4.0,6.2,6.0,4.2
+HH 139,HH,J.G. Hagey Hall of the Humanities,26.2,43.8,37.4,6.7,6.7,6.7,4.8,1.3
+EV1 132,EV1,Environment 1,26.0,44.0,37.1,5.3,6.0,4.0,6.0,4.7
+DWE 2402,DWE,Douglas Wright Engineering Building,25.8,44.2,36.9,8.2,5.7,4.8,3.5,3.7
+OPT 401,OPT,Optometry,25.8,44.2,36.9,7.2,4.0,4.5,5.8,4.3
+B1 271,B1,Biology 1,25.7,44.3,36.7,6.2,6.7,6.2,6.7,0.0
+PAS 2086,PAS,"Psychology, Anthropology, Sociology",25.7,44.3,36.7,4.5,5.5,10.2,5.5,0.0
+ESC 104,ESC,Earth Sciences & Chemistry,25.5,44.5,36.4,2.8,8.5,2.8,5.7,5.7
+E7 2324,E7,Engineering 7 (Pearl Sullivan Engineering Building),25.3,44.7,36.2,5.7,7.0,2.8,7.0,2.8
+EV2 2002,EV2,Environment 2,25.3,44.7,36.2,4.5,6.7,5.5,5.8,2.8
+DWE 2529,DWE,Douglas Wright Engineering Building,25.0,45.0,35.7,2.8,6.8,5.7,6.8,2.8
+DWE 1502,DWE,Douglas Wright Engineering Building,24.7,45.3,35.2,3.7,6.8,5.5,5.0,3.7
+EIT 3151,EIT,Centre for Environmental and Information Technology,24.7,45.3,35.2,4.2,4.0,7.0,5.3,4.2
+CPH 1319,CPH,Carl A. Pollock Hall,24.5,45.5,35.0,4.0,5.5,4.0,5.5,5.5
+SJ2 2002,SJ2,St. Jerome's University - Academic Centre,24.5,45.5,35.0,6.8,6.8,4.0,6.8,0.0
+RCH 110,RCH,J.R. Coutts Engineering Lecture Hall,24.2,45.8,34.5,5.8,5.8,5.7,5.2,1.7
+RCH 204,RCH,J.R. Coutts Engineering Lecture Hall,24.2,45.8,34.5,4.0,6.8,3.8,6.0,3.5
+RCH 206,RCH,J.R. Coutts Engineering Lecture Hall,24.2,45.8,34.5,1.8,6.0,7.7,5.0,3.7
+OPT 402,OPT,Optometry,24.0,46.0,34.3,3.7,5.5,3.7,5.5,5.7
+PAS 1229,PAS,"Psychology, Anthropology, Sociology",24.0,46.0,34.3,5.3,6.7,5.3,6.7,0.0
+RCH 101,RCH,J.R. Coutts Engineering Lecture Hall,24.0,46.0,34.3,4.8,6.2,3.5,5.3,4.2
+REN 2107,REN,Renison University College,24.0,46.0,34.3,5.5,4.2,8.3,4.2,1.8
+PAS 1241,PAS,"Psychology, Anthropology, Sociology",23.8,46.2,34.0,6.7,6.0,6.7,4.5,0.0
+RCH 205,RCH,J.R. Coutts Engineering Lecture Hall,23.5,46.5,33.6,3.7,5.8,5.3,5.0,3.7
+STC 3018,STC,Science Teaching Complex,23.3,46.7,33.3,3.7,5.7,3.7,5.7,4.7
+DWE 3522,DWE,Douglas Wright Engineering Building,23.2,46.8,33.1,5.3,6.7,5.3,5.8,0.0
+HH 2104,HH,J.G. Hagey Hall of the Humanities,23.2,46.8,33.1,4.0,4.2,7.3,7.7,0.0
+QNC 2612,QNC,Mike & Ophelia Lazaridis Quantum-Nano Centre,23.2,46.8,33.1,3.8,5.8,3.8,5.8,3.8
+CGR 1111,CGR,Conrad Grebel University College,22.8,47.2,32.6,3.2,6.8,6.0,6.8,0.0
+E3 3164,E3,Engineering 3,22.8,47.2,32.6,3.8,2.8,2.8,6.7,6.7
+DMS 2024,DMS,Digital Media Stratford,22.7,47.3,32.4,5.7,5.7,5.7,5.7,0.0
+DMS 2129,DMS,Digital Media Stratford,22.7,47.3,32.4,5.7,5.7,5.7,5.7,0.0
+E7 3419,E7,Engineering 7 (Pearl Sullivan Engineering Building),22.7,47.3,32.4,2.8,5.7,2.8,5.7,5.7
+STC 3014,STC,Science Teaching Complex,22.7,47.3,32.4,5.3,5.3,5.3,6.7,0.0
+STC 4008,STC,Science Teaching Complex,22.7,47.3,32.4,2.8,5.7,5.7,5.7,2.8
+STC 4018,STC,Science Teaching Complex,22.7,47.3,32.4,2.8,5.7,5.7,5.7,2.8
+DWE 2527,DWE,Douglas Wright Engineering Building,22.5,47.5,32.1,3.5,6.2,4.8,5.3,2.7
+CGR 1208,CGR,Conrad Grebel University College,22.3,47.7,31.9,5.3,6.8,5.3,4.0,0.8
+PHY 145,PHY,Physics,22.2,47.8,31.7,5.7,4.8,5.7,4.3,1.7
+DWE 3518,DWE,Douglas Wright Engineering Building,22.0,48.0,31.4,6.3,4.5,4.5,2.7,4.0
+E5 2004,E5,Engineering 5,22.0,48.0,31.4,5.5,5.8,3.5,5.5,1.7
+SJ1 3015,SJ1,St. Jerome's University - Classrooms and Library Building,22.0,48.0,31.4,3.7,7.3,3.7,7.3,0.0
+RCH 209,RCH,J.R. Coutts Engineering Lecture Hall,21.8,48.2,31.2,5.3,1.3,5.7,6.2,3.3
+SJ2 2003,SJ2,St. Jerome's University - Academic Centre,21.8,48.2,31.2,2.7,6.7,4.5,8.0,0.0
+MC 4063,MC,Mathematics & Computer Building,21.7,48.3,31.0,6.3,4.5,6.0,2.7,2.2
+BMH 1621,BMH,B.C. Matthews Hall,21.5,48.5,30.7,3.5,5.8,6.3,2.2,3.7
+REN 1918,REN,Renison University College,21.5,48.5,30.7,4.0,5.3,6.8,5.3,0.0
+M3 3103,M3,Mathematics 3,21.3,48.7,30.5,5.3,5.3,5.3,5.3,0.0
+STC 3019,STC,Science Teaching Complex,21.0,49.0,30.0,5.7,5.7,4.8,4.8,0.0
+DC 2568,DC,William G. Davis Computer Research Centre,20.8,49.2,29.8,4.2,4.2,4.2,4.2,4.2
+ML 349,ML,Modern Languages,20.8,49.2,29.8,2.7,5.8,6.7,5.7,0.0
+E2 1736,E2,Engineering 2,20.7,49.3,29.5,2.2,4.2,5.8,6.0,2.5
+E6 2024,E6,Engineering 6,20.7,49.3,29.5,0.0,6.0,1.8,8.7,4.2
+ECH 2113,ECH,East Campus Hall,20.7,49.3,29.5,5.5,5.5,4.2,5.5,0.0
+CPH 3604,CPH,Carl A. Pollock Hall,20.5,49.5,29.3,2.7,6.0,6.3,4.7,0.8
+HH 119,HH,J.G. Hagey Hall of the Humanities,20.5,49.5,29.3,4.2,0.8,6.7,1.7,7.2
+DWE 3517,DWE,Douglas Wright Engineering Building,20.2,49.8,28.8,5.5,5.3,1.3,5.3,2.7
+DWE 3519,DWE,Douglas Wright Engineering Building,20.2,49.8,28.8,3.7,4.0,4.0,5.8,2.7
+M3 2134,M3,Mathematics 3,20.2,49.8,28.8,5.5,3.7,5.5,3.7,1.8
+DWE 3522A,DWE,Douglas Wright Engineering Building,20.0,50.0,28.6,6.8,1.8,1.3,5.5,4.5
+PAS 2083,PAS,"Psychology, Anthropology, Sociology",20.0,50.0,28.6,4.3,4.0,4.3,4.8,2.5
+CGR 2201,CGR,Conrad Grebel University College,19.8,50.2,28.3,2.8,5.7,5.7,5.7,0.0
+DMS 2022,DMS,Digital Media Stratford,19.8,50.2,28.3,5.7,5.7,2.8,5.7,0.0
+E2 3346,E2,Engineering 2,19.8,50.2,28.3,2.8,2.8,5.7,2.8,5.7
+STC 4019,STC,Science Teaching Complex,19.8,50.2,28.3,2.8,5.7,2.8,5.7,2.8
+EXP 2677,EXP,Expansion,19.5,50.5,27.9,5.5,2.8,2.7,5.7,2.8
+EXP 3686,EXP,Expansion,19.3,50.7,27.6,4.7,3.7,5.5,3.7,1.8
+STP 201A,STP,St. Paul's University College (formerly United College),19.3,50.7,27.6,2.7,7.0,5.5,4.2,0.0
+RCH 207,RCH,J.R. Coutts Engineering Lecture Hall,19.2,50.8,27.4,4.0,5.3,2.7,5.3,1.8
+ARC 3101,ARC,School of Architecture,19.0,51.0,27.1,6.7,0.0,0.0,6.7,5.7
+SJ2 1004,SJ2,St. Jerome's University - Academic Centre,19.0,51.0,27.1,6.8,5.5,4.0,2.7,0.0
+SJ2 2001,SJ2,St. Jerome's University - Academic Centre,19.0,51.0,27.1,2.7,6.8,5.5,4.0,0.0
+DWE 1515,DWE,Douglas Wright Engineering Building,18.8,51.2,26.9,6.3,2.7,2.7,4.5,2.7
+PHY 235,PHY,Physics,18.8,51.2,26.9,4.0,6.8,4.0,4.0,0.0
+SJ2 2007,SJ2,St. Jerome's University - Academic Centre,18.8,51.2,26.9,6.8,4.0,4.0,4.0,0.0
+CGR 1302,CGR,Conrad Grebel University College,18.7,51.3,26.7,3.5,4.0,6.3,4.0,0.8
+ECH 1218,ECH,East Campus Hall,18.7,51.3,26.7,4.7,4.7,4.7,4.7,0.0
+HH 259,HH,J.G. Hagey Hall of the Humanities,18.5,51.5,26.4,2.8,3.7,1.7,5.0,5.3
+RCH 208,RCH,J.R. Coutts Engineering Lecture Hall,18.0,52.0,25.7,0.0,4.2,5.5,5.0,3.3
+PAS 4032,PAS,"Psychology, Anthropology, Sociology",17.8,52.2,25.5,5.7,1.8,2.8,4.7,2.8
+SJ1 3027,SJ1,St. Jerome's University - Classrooms and Library Building,17.8,52.2,25.5,6.3,4.0,3.5,4.0,0.0
+DWE 3516,DWE,Douglas Wright Engineering Building,17.7,52.3,25.2,2.2,6.3,2.2,4.3,2.7
+BMH 1633,BMH,B.C. Matthews Hall,17.5,52.5,25.0,4.7,5.5,4.7,2.7,0.0
+PAS 3026,PAS,"Psychology, Anthropology, Sociology",17.5,52.5,25.0,6.0,4.7,2.7,1.8,2.3
+C2 168,C2,Chemistry 2,17.2,52.8,24.5,0.0,5.7,5.8,5.7,0.0
+ARC 1101,ARC,School of Architecture,17.0,53.0,24.3,2.8,5.7,5.7,0.0,2.8
+CPH 1333,CPH,Carl A. Pollock Hall,17.0,53.0,24.3,2.8,2.8,2.8,2.8,5.7
+DMS 3129,DMS,Digital Media Stratford,17.0,53.0,24.3,0.0,0.0,5.7,5.7,5.7
+E2 3353,E2,Engineering 2,17.0,53.0,24.3,2.8,2.8,5.7,5.7,0.0
+SJ1 2011,SJ1,St. Jerome's University - Classrooms and Library Building,17.0,53.0,24.3,2.7,5.8,2.7,5.8,0.0
+REN 1926,REN,Renison University College,16.5,53.5,23.6,3.7,3.7,3.7,3.7,1.8
+EIT 3141,EIT,Centre for Environmental and Information Technology,16.3,53.7,23.3,4.2,4.0,4.2,4.0,0.0
+OPT 309,OPT,Optometry,16.3,53.7,23.3,4.0,4.2,4.0,4.2,0.0
+REN 1922,REN,Renison University College,16.3,53.7,23.3,3.2,3.2,4.5,1.8,3.7
+REN 1924,REN,Renison University College,16.3,53.7,23.3,3.2,3.2,4.5,1.8,3.7
+E5 6127,E5,Engineering 5,16.2,53.8,23.1,2.7,2.7,2.7,2.7,5.5
+OPT 347,OPT,Optometry,16.0,54.0,22.9,4.8,5.0,2.2,3.2,0.8
+SJ1 2009,SJ1,St. Jerome's University - Classrooms and Library Building,16.0,54.0,22.9,4.0,4.0,4.0,4.0,0.0
+EXP 3689,EXP,Expansion,15.8,54.2,22.6,4.8,3.7,1.8,3.7,1.8
+E5 3052,E5,Engineering 5,15.3,54.7,21.9,1.3,5.8,1.3,6.8,0.0
+DWE 3506,DWE,Douglas Wright Engineering Building,15.0,55.0,21.4,2.8,1.8,2.8,4.7,2.8
+PAS 1418,PAS,"Psychology, Anthropology, Sociology",15.0,55.0,21.4,2.8,8.0,1.8,2.3,0.0
+EXP 3683,EXP,Expansion,14.7,55.3,21.0,3.7,3.7,1.8,1.8,3.7
+EXP 3688,EXP,Expansion,14.7,55.3,21.0,0.0,3.7,3.7,3.7,3.7
+E7 1427,E7,Engineering 7 (Pearl Sullivan Engineering Building),14.5,55.5,20.7,5.7,3.2,1.7,1.3,2.7
+QNC 2614,QNC,Mike & Ophelia Lazaridis Quantum-Nano Centre,14.5,55.5,20.7,2.8,5.8,0.0,5.8,0.0
+STC 5002,STC,Science Teaching Complex,14.5,55.5,20.7,5.8,0.0,2.8,5.8,0.0
+SJ1 3016,SJ1,St. Jerome's University - Classrooms and Library Building,14.3,55.7,20.5,4.5,2.7,4.5,2.7,0.0
+B2 149,B2,Biology 2,14.2,55.8,20.2,2.8,5.7,5.7,0.0,0.0
+B2 351,B2,Biology 2,14.2,55.8,20.2,2.8,5.7,2.8,2.8,0.0
+C2 273,C2,Chemistry 2,14.2,55.8,20.2,0.0,8.5,0.0,5.7,0.0
+DWE 1407,DWE,Douglas Wright Engineering Building,14.2,55.8,20.2,2.8,2.8,2.8,2.8,2.8
+PHY 214,PHY,Physics,14.2,55.8,20.2,2.8,2.8,2.8,2.8,2.8
+SJ1 3014,SJ1,St. Jerome's University - Classrooms and Library Building,14.2,55.8,20.2,1.3,5.3,2.2,5.3,0.0
+STC 3029,STC,Science Teaching Complex,14.2,55.8,20.2,2.8,5.7,2.8,2.8,0.0
+STC 3039,STC,Science Teaching Complex,14.2,55.8,20.2,2.8,5.7,2.8,2.8,0.0
+ECH 1224A,ECH,East Campus Hall,14.0,56.0,20.0,4.7,2.3,4.7,2.3,0.0
+ML 259,ML,Modern Languages,13.8,56.2,19.8,0.0,5.7,0.0,3.8,4.3
+ARC 3102,ARC,School of Architecture,13.3,56.7,19.0,6.7,0.0,0.0,6.7,0.0
+EV2 2069,EV2,Environment 2,13.3,56.7,19.0,2.7,4.0,2.7,4.0,0.0
+M3 4206,M3,Mathematics 3,13.3,56.7,19.0,2.7,4.0,2.7,4.0,0.0
+MC 5417,MC,Mathematics & Computer Building,13.0,57.0,18.6,4.3,1.3,4.3,1.3,1.7
+OPT 420,OPT,Optometry,13.0,57.0,18.6,0.0,2.8,7.3,2.8,0.0
+EXP 3687,EXP,Expansion,12.8,57.2,18.3,0.0,3.7,3.7,3.7,1.8
+PAS 1237,PAS,"Psychology, Anthropology, Sociology",12.8,57.2,18.3,0.0,2.2,5.0,4.0,1.7
+MC 3005,MC,Mathematics & Computer Building,12.2,57.8,17.4,5.5,0.0,0.0,0.0,6.7
+MC 3027,MC,Mathematics & Computer Building,12.2,57.8,17.4,5.5,0.0,0.0,0.0,6.7
+E2 3344,E2,Engineering 2,11.7,58.3,16.7,0.0,5.8,0.0,5.8,0.0
+ESC 149,ESC,Earth Sciences & Chemistry,11.7,58.3,16.7,0.0,0.0,5.8,5.8,0.0
+HH 123,HH,J.G. Hagey Hall of the Humanities,11.7,58.3,16.7,1.3,2.8,1.3,6.2,0.0
+QNC 2611,QNC,Mike & Ophelia Lazaridis Quantum-Nano Centre,11.7,58.3,16.7,0.0,5.8,0.0,5.8,0.0
+B2 150,B2,Biology 2,11.5,58.5,16.4,2.8,2.8,0.0,5.8,0.0
+ARC 1001,ARC,School of Architecture,11.3,58.7,16.2,0.0,2.8,5.7,0.0,2.8
+B1 370,B1,Biology 1,11.3,58.7,16.2,2.8,2.8,2.8,2.8,0.0
+E2 2356,E2,Engineering 2,11.3,58.7,16.2,0.0,2.8,2.8,2.8,2.8
+E2 2364,E2,Engineering 2,11.3,58.7,16.2,2.8,2.8,2.8,2.8,0.0
+E2 3339,E2,Engineering 2,11.3,58.7,16.2,0.0,2.8,2.8,2.8,2.8
+E2 3347,E2,Engineering 2,11.3,58.7,16.2,2.8,2.8,2.8,2.8,0.0
+E3 3178,E3,Engineering 3,11.3,58.7,16.2,2.8,0.0,2.8,0.0,5.7
+E5 6005,E5,Engineering 5,11.3,58.7,16.2,2.8,0.0,2.8,2.8,2.8
+E5 6007,E5,Engineering 5,11.3,58.7,16.2,2.8,2.8,2.8,2.8,0.0
+E7 2317,E7,Engineering 7 (Pearl Sullivan Engineering Building),11.3,58.7,16.2,2.8,2.8,2.8,2.8,0.0
+EC5 1027,EC5,East Campus 5,11.3,58.7,16.2,5.7,0.0,5.7,0.0,0.0
+EIT 1009,EIT,Centre for Environmental and Information Technology,11.3,58.7,16.2,5.7,2.8,0.0,0.0,2.8
+REN 2918,REN,Renison University College,11.3,58.7,16.2,5.7,0.0,2.8,2.8,0.0
+DC 2585,DC,William G. Davis Computer Research Centre,11.2,58.8,16.0,2.8,4.2,0.0,1.3,2.8
+SJ1 3012,SJ1,St. Jerome's University - Classrooms and Library Building,11.2,58.8,16.0,4.7,1.8,0.0,4.7,0.0
+E5 4106,E5,Engineering 5,10.7,59.3,15.2,2.7,2.7,2.7,2.7,0.0
+E5 4128,E5,Engineering 5,10.7,59.3,15.2,2.7,2.7,2.7,2.7,0.0
+EIT 3145,EIT,Centre for Environmental and Information Technology,10.7,59.3,15.2,2.7,2.7,2.7,2.7,0.0
+HH 180,HH,J.G. Hagey Hall of the Humanities,10.0,60.0,14.3,4.7,2.7,0.0,2.7,0.0
+PHR 1012,PHR,Pharmacy,9.2,60.8,13.1,1.8,1.8,3.7,0.0,1.8
+EV2 2006,EV2,Environment 2,9.0,61.0,12.9,0.8,2.5,0.0,2.8,2.8
+MC 3003,MC,Mathematics & Computer Building,9.0,61.0,12.9,0.0,0.0,5.0,4.0,0.0
+AL 209,AL,Arts Lecture Hall,8.5,61.5,12.1,2.8,0.0,2.8,2.8,0.0
+B1 374,B1,Biology 1,8.5,61.5,12.1,0.0,5.7,2.8,0.0,0.0
+B1 378,B1,Biology 1,8.5,61.5,12.1,5.7,2.8,0.0,0.0,0.0
+CGR 4224,CGR,Conrad Grebel University College,8.5,61.5,12.1,2.8,2.8,0.0,2.8,0.0
+DC 3701,DC,William G. Davis Computer Research Centre,8.5,61.5,12.1,2.8,0.0,2.8,0.0,2.8
+DMS 3022,DMS,Digital Media Stratford,8.5,61.5,12.1,5.7,0.0,2.8,0.0,0.0
+E2 2356A,E2,Engineering 2,8.5,61.5,12.1,0.0,2.8,2.8,2.8,0.0
+E3 2119,E3,Engineering 3,8.5,61.5,12.1,0.0,2.8,2.8,2.8,0.0
+HH 124,HH,J.G. Hagey Hall of the Humanities,8.5,61.5,12.1,2.8,2.8,2.8,0.0,0.0
+STC 4009,STC,Science Teaching Complex,8.5,61.5,12.1,0.0,5.7,2.8,0.0,0.0
+STP 164,STP,St. Paul's University College (formerly United College),8.5,61.5,12.1,0.0,2.8,2.8,2.8,0.0
+SJ1 3020,SJ1,St. Jerome's University - Classrooms and Library Building,8.3,61.7,11.9,2.8,1.8,0.8,2.8,0.0
+CGR 1300,CGR,Conrad Grebel University College,8.2,61.8,11.7,0.0,2.7,2.8,2.7,0.0
+STP 256,STP,St. Paul's University College (formerly United College),8.2,61.8,11.7,1.3,1.3,1.3,4.2,0.0
+E5 5106,E5,Engineering 5,8.0,62.0,11.4,1.3,2.7,1.3,2.7,0.0
+E5 5128,E5,Engineering 5,8.0,62.0,11.4,1.3,2.7,1.3,2.7,0.0
+MC 5479,MC,Mathematics & Computer Building,7.8,62.2,11.2,0.8,2.7,0.8,2.7,0.8
+QNC 1201,QNC,Mike & Ophelia Lazaridis Quantum-Nano Centre,7.8,62.2,11.2,2.2,1.3,2.2,1.3,0.8
+BMH 2402,BMH,B.C. Matthews Hall,7.3,62.7,10.5,0.0,1.8,3.7,1.8,0.0
+ECH 1219,ECH,East Campus Hall,7.3,62.7,10.5,3.7,0.0,3.7,0.0,0.0
+OPT 440,OPT,Optometry,7.3,62.7,10.5,0.0,1.8,3.7,1.8,0.0
+MC 2062,MC,Mathematics & Computer Building,6.7,63.3,9.5,0.0,0.0,0.0,0.0,6.7
+MC 2063,MC,Mathematics & Computer Building,6.7,63.3,9.5,0.0,0.0,0.0,0.0,6.7
+CPH 4335,CPH,Carl A. Pollock Hall,6.3,63.7,9.0,0.0,1.3,1.8,3.2,0.0
+ECH 1205,ECH,East Campus Hall,5.7,64.3,8.1,0.0,2.8,2.8,0.0,0.0
+ECH 219,ECH,East Campus Hall,5.7,64.3,8.1,0.0,0.0,0.0,0.0,5.7
+EIT 2014,EIT,Centre for Environmental and Information Technology,5.7,64.3,8.1,2.8,0.0,0.0,2.8,0.0
+EV1 225,EV1,Environment 1,5.7,64.3,8.1,0.0,0.0,0.0,5.7,0.0
+EV3 2402,EV3,Environment 3,5.7,64.3,8.1,5.7,0.0,0.0,0.0,0.0
+EV3 4327,EV3,Environment 3,5.7,64.3,8.1,0.0,5.7,0.0,0.0,0.0
+HH 232,HH,J.G. Hagey Hall of the Humanities,5.7,64.3,8.1,0.0,0.0,2.8,2.8,0.0
+HH 3127,HH,J.G. Hagey Hall of the Humanities,5.7,64.3,8.1,0.0,0.0,2.8,2.8,0.0
+PAS 2085,PAS,"Psychology, Anthropology, Sociology",5.7,64.3,8.1,0.0,0.0,2.8,2.8,0.0
+REN 0502,REN,Renison University College,5.7,64.3,8.1,0.0,0.0,0.0,5.7,0.0
+REN 0503,REN,Renison University College,5.7,64.3,8.1,0.0,0.0,0.0,5.7,0.0
+REN 3106B,REN,Renison University College,5.7,64.3,8.1,0.0,0.0,0.0,5.7,0.0
+C2 160,C2,Chemistry 2,5.5,64.5,7.9,2.8,1.3,0.0,1.3,0.0
+PHR 2019,PHR,Pharmacy,5.5,64.5,7.9,0.0,5.5,0.0,0.0,0.0
+PHR 3026,PHR,Pharmacy,5.5,64.5,7.9,0.0,0.0,0.0,5.5,0.0
+REN 2924,REN,Renison University College,5.3,64.7,7.6,1.3,1.3,0.8,1.8,0.0
+E7 2409,E7,Engineering 7 (Pearl Sullivan Engineering Building),4.7,65.3,6.7,0.0,0.0,3.8,0.0,0.8
+ECH 1222,ECH,East Campus Hall,4.7,65.3,6.7,0.0,2.3,0.0,2.3,0.0
+ECH 1230,ECH,East Campus Hall,4.7,65.3,6.7,0.0,2.3,0.0,2.3,0.0
+ECH 1231,ECH,East Campus Hall,4.7,65.3,6.7,0.0,2.3,0.0,2.3,0.0
+ECH 1237,ECH,East Campus Hall,4.7,65.3,6.7,0.0,2.3,0.0,2.3,0.0
+AL 6,AL,Arts Lecture Hall,4.2,65.8,6.0,0.0,2.3,0.0,1.8,0.0
+PHY 309G,PHY,Physics,3.8,66.2,5.5,0.0,0.0,0.0,0.0,3.8
+HH 117,HH,J.G. Hagey Hall of the Humanities,3.7,66.3,5.2,1.8,0.0,0.0,1.8,0.0
+HH 345,HH,J.G. Hagey Hall of the Humanities,3.7,66.3,5.2,2.8,0.0,0.0,0.8,0.0
+REN 2928,REN,Renison University College,3.7,66.3,5.2,0.0,1.8,0.0,1.8,0.0
+REN 2930,REN,Renison University College,3.7,66.3,5.2,1.8,0.0,1.8,0.0,0.0
+PAS 2084,PAS,"Psychology, Anthropology, Sociology",3.5,66.5,5.0,0.0,1.3,0.0,2.2,0.0
+AL 210,AL,Arts Lecture Hall,2.8,67.2,4.0,0.0,0.0,2.8,0.0,0.0
+ARC 2008,ARC,School of Architecture,2.8,67.2,4.0,0.0,0.0,2.8,0.0,0.0
+B1 266,B1,Biology 1,2.8,67.2,4.0,0.0,0.0,0.0,2.8,0.0
+B2 226,B2,Biology 2,2.8,67.2,4.0,0.0,0.0,2.8,0.0,0.0
+C2 361,C2,Chemistry 2,2.8,67.2,4.0,2.8,0.0,0.0,0.0,0.0
+EC5 1026,EC5,East Campus 5,2.8,67.2,4.0,0.0,2.8,0.0,0.0,0.0
+EIT 2053,EIT,Centre for Environmental and Information Technology,2.8,67.2,4.0,0.0,2.8,0.0,0.0,0.0
+EV1 353,EV1,Environment 1,2.8,67.2,4.0,0.0,2.8,0.0,0.0,0.0
+HH 344,HH,J.G. Hagey Hall of the Humanities,2.8,67.2,4.0,2.8,0.0,0.0,0.0,0.0
+M3 3127,M3,Mathematics 3,2.8,67.2,4.0,2.8,0.0,0.0,0.0,0.0
+ML 109,ML,Modern Languages,2.8,67.2,4.0,0.0,0.0,0.0,2.8,0.0
+PAS 4053,PAS,"Psychology, Anthropology, Sociology",2.8,67.2,4.0,0.0,0.0,0.0,2.8,0.0
+PHR 2009,PHR,Pharmacy,2.8,67.2,4.0,2.8,0.0,0.0,0.0,0.0
+RAC 3003,RAC,Research Advancement Centre,2.8,67.2,4.0,2.8,0.0,0.0,0.0,0.0
+REN 0201,REN,Renison University College,2.8,67.2,4.0,0.0,2.8,0.0,0.0,0.0
+STC 2002,STC,Science Teaching Complex,2.8,67.2,4.0,0.0,0.0,2.8,0.0,0.0
+STP 201,STP,St. Paul's University College (formerly United College),2.8,67.2,4.0,0.0,0.0,2.8,0.0,0.0
+C2 278,C2,Chemistry 2,2.7,67.3,3.8,0.0,1.3,0.0,1.3,0.0
+DC 2564,DC,William G. Davis Computer Research Centre,2.7,67.3,3.8,1.3,0.0,1.3,0.0,0.0
+PAS 2271,PAS,"Psychology, Anthropology, Sociology",2.5,67.5,3.6,0.0,0.8,0.0,0.8,0.8
+IHB 2018,IHB,Integrated Health Building,2.3,67.7,3.3,2.3,0.0,0.0,0.0,0.0
+B1 273,B1,Biology 1,1.8,68.2,2.6,0.0,0.0,1.8,0.0,0.0
+E3 2103,E3,Engineering 3,1.8,68.2,2.6,0.0,0.0,0.0,0.0,1.8
+OPT 439,OPT,Optometry,1.8,68.2,2.6,0.0,0.0,0.0,0.0,1.8
+PHR 1008,PHR,Pharmacy,1.8,68.2,2.6,0.0,1.8,0.0,0.0,0.0
+PHY 352,PHY,Physics,1.8,68.2,2.6,0.0,1.8,0.0,0.0,0.0
+EIT 2044,EIT,Centre for Environmental and Information Technology,1.3,68.7,1.9,1.3,0.0,0.0,0.0,0.0
+EV1 354,EV1,Environment 1,1.3,68.7,1.9,0.0,0.0,0.0,0.0,1.3
+OPT 350,OPT,Optometry,0.8,69.2,1.2,0.0,0.0,0.0,0.0,0.8
+SJ1 3013,SJ1,St. Jerome's University - Classrooms and Library Building,0.8,69.2,1.2,0.0,0.0,0.8,0.0,0.0
+B2 151,B2,Biology 2,0.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+E2 2363,E2,Engineering 2,0.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+E2 3341,E2,Engineering 2,0.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+E2 3348,E2,Engineering 2,0.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+EIT 3142,EIT,Centre for Environmental and Information Technology,0.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+EV1 134,EV1,Environment 1,0.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+EV1 221,EV1,Environment 1,0.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0

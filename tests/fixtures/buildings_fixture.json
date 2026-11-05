@@ -1,0 +1,4 @@
+[
+ {"code":"MC","name":"Mathematics & Computer","lat":43.472,"lng":-80.544,"aliases":[],"polygon":[[-80.5,43.4],[-80.4,43.4],[-80.4,43.5]]},
+ {"code":"DC","name":"Davis Centre","lat":43.4728,"lng":-80.5423,"aliases":["DAVIS"],"polygon":null}
+]

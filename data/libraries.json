@@ -1,0 +1,473 @@
+{
+ "libraries": [
+  {
+   "id": "dp",
+   "name": "Dana Porter Library",
+   "building": "LIB",
+   "lat": 43.469844,
+   "lng": -80.542429,
+   "weekly_hours": {
+    "sun": [
+     "11:00",
+     "21:00"
+    ],
+    "sat": [
+     "11:00",
+     "21:00"
+    ],
+    "mon": [
+     "08:00",
+     "21:00"
+    ],
+    "tue": [
+     "08:00",
+     "21:00"
+    ],
+    "wed": [
+     "08:00",
+     "21:00"
+    ],
+    "thu": [
+     "08:00",
+     "21:00"
+    ],
+    "fri": [
+     "08:00",
+     "21:00"
+    ]
+   },
+   "hours_observation": "Observed on libcal.uwaterloo.ca/hours for the week Sun 25 Oct - Sat 31 Oct 2026 (regular term hours). Hours vary by term and week; re-check the source.",
+   "hours_exceptions": [
+    "Exam periods have historically had extended hours (older notices: Davis Centre 24 hours except Sunday 02:00-08:00; Dana Porter 08:00-02:00). No Fall 2026 exam-hours notice was found, so these are NOT confirmed for this term.",
+    "Spring 2025 hours were reduced (Dana Porter 22:00, Davis Centre 23:00 close) per Daily Bulletin 2025-04-08.",
+    "Holidays and reading weeks may differ; always check libcal."
+   ],
+   "source_url": "https://libcal.uwaterloo.ca/hours/",
+   "live_occupancy": {
+    "endpoint": "https://waitz.io/live/waterloo",
+    "format": "JSON {data:[{id,name,busyness(0-100),people,capacity,isOpen,hourSummary,percentage(0-1),subLocs:[{id,name,busyness,people,capacity,isOpen}]}]} ; CORS Access-Control-Allow-Origin: *",
+    "waitz_location_id": 215,
+    "notes": "Occuspace/Waitz people-counting sensors. Linked from the UW Library home page (lib.uwaterloo.ca/web: \"Real-time occupancy: waitz.io/waterloo\"). The JSON endpoint is undocumented/unofficial: no auth required and verified returning data on 2026-10-29, but it may change or be rate limited, so poll gently (e.g. every 2-5 min), fail soft to the estimate, and credit Waitz/Occuspace. Companion endpoint https://waitz.io/compare/waterloo gives trend text (peak hours, best floor)."
+   },
+   "live_zones": [
+    {
+     "waitz_id": 651,
+     "name": "Floor 3 - Study Space"
+    },
+    {
+     "waitz_id": 648,
+     "name": "Lower Floor - Study Space"
+    },
+    {
+     "waitz_id": 649,
+     "name": "Main Floor Study Space"
+    },
+    {
+     "waitz_id": 650,
+     "name": "Main Floor - Adaptive Technology Centre"
+    },
+    {
+     "waitz_id": 652,
+     "name": "Floor 6 - Quiet Study"
+    },
+    {
+     "waitz_id": 653,
+     "name": "Floor 7 - Silent Study"
+    },
+    {
+     "waitz_id": 654,
+     "name": "Floor 8 - Silent Study"
+    },
+    {
+     "waitz_id": 655,
+     "name": "Floor 9 - Quiet Study"
+    },
+    {
+     "waitz_id": 656,
+     "name": "Floor 10 - Group Study"
+    }
+   ],
+   "capacity_waitz": 959
+  },
+  {
+   "id": "dc",
+   "name": "Davis Centre Library",
+   "building": "DC",
+   "lat": 43.472761,
+   "lng": -80.542164,
+   "weekly_hours": {
+    "sun": [
+     "11:00",
+     "24:00"
+    ],
+    "sat": [
+     "11:00",
+     "24:00"
+    ],
+    "mon": [
+     "08:00",
+     "24:00"
+    ],
+    "tue": [
+     "08:00",
+     "24:00"
+    ],
+    "wed": [
+     "08:00",
+     "24:00"
+    ],
+    "thu": [
+     "08:00",
+     "24:00"
+    ],
+    "fri": [
+     "08:00",
+     "24:00"
+    ]
+   },
+   "hours_observation": "Observed on libcal.uwaterloo.ca/hours for the week Sun 25 Oct - Sat 31 Oct 2026 (regular term hours). Hours vary by term and week; re-check the source. \"24:00\" means midnight.",
+   "hours_exceptions": [
+    "Exam periods have historically had extended hours (older notices: Davis Centre 24 hours except Sunday 02:00-08:00; Dana Porter 08:00-02:00). No Fall 2026 exam-hours notice was found, so these are NOT confirmed for this term.",
+    "Spring 2025 hours were reduced (Dana Porter 22:00, Davis Centre 23:00 close) per Daily Bulletin 2025-04-08.",
+    "Holidays and reading weeks may differ; always check libcal."
+   ],
+   "source_url": "https://libcal.uwaterloo.ca/hours/",
+   "live_occupancy": {
+    "endpoint": "https://waitz.io/live/waterloo",
+    "format": "JSON {data:[{id,name,busyness(0-100),people,capacity,isOpen,hourSummary,percentage(0-1),subLocs:[{id,name,busyness,people,capacity,isOpen}]}]} ; CORS Access-Control-Allow-Origin: *",
+    "waitz_location_id": 216,
+    "notes": "Occuspace/Waitz people-counting sensors. Linked from the UW Library home page (lib.uwaterloo.ca/web: \"Real-time occupancy: waitz.io/waterloo\"). The JSON endpoint is undocumented/unofficial: no auth required and verified returning data on 2026-10-29, but it may change or be rate limited, so poll gently (e.g. every 2-5 min), fail soft to the estimate, and credit Waitz/Occuspace. Companion endpoint https://waitz.io/compare/waterloo gives trend text (peak hours, best floor)."
+   },
+   "live_zones": [
+    {
+     "waitz_id": 658,
+     "name": "Main Study Areas"
+    },
+    {
+     "waitz_id": 662,
+     "name": "Main Floor - Silent Study Room"
+    },
+    {
+     "waitz_id": 663,
+     "name": "Main Floor - Quiet Study Corner"
+    },
+    {
+     "waitz_id": 657,
+     "name": "Lower Floor - Group Study (Bookstack Tables)"
+    },
+    {
+     "waitz_id": 659,
+     "name": "Lower Floor - Group Study (Wall Tables)"
+    },
+    {
+     "waitz_id": 661,
+     "name": "Lower Floor - Quiet Study"
+    },
+    {
+     "waitz_id": 660,
+     "name": "Lower Floor - Quiet Study Pod Area"
+    }
+   ],
+   "capacity_waitz": 673
+  },
+  {
+   "id": "arc",
+   "name": "Musagetes Architecture Library",
+   "building": "ARC",
+   "lat": 43.358572,
+   "lng": -80.31692,
+   "weekly_hours": {
+    "sun": [
+     "08:00",
+     "22:30"
+    ],
+    "mon": [
+     "08:00",
+     "22:30"
+    ],
+    "tue": [
+     "08:00",
+     "22:30"
+    ],
+    "wed": [
+     "08:00",
+     "22:30"
+    ],
+    "thu": [
+     "08:00",
+     "22:30"
+    ],
+    "fri": [
+     "08:00",
+     "22:30"
+    ],
+    "sat": [
+     "08:00",
+     "22:30"
+    ]
+   },
+   "hours_observation": "Observed on libcal.uwaterloo.ca/hours for the week Sun 25 Oct - Sat 31 Oct 2026 (regular term hours). Hours vary by term and week; re-check the source.",
+   "hours_exceptions": [
+    "Help desk Mon-Fri 12:00-16:00 only.",
+    "Building ARC is the School of Architecture in Cambridge, about 20 km from main campus; the UI should not place it with main-campus libraries."
+   ],
+   "source_url": "https://libcal.uwaterloo.ca/hours/",
+   "live_occupancy": {
+    "endpoint": "https://waitz.io/live/waterloo",
+    "format": "JSON {data:[{id,name,busyness(0-100),people,capacity,isOpen,hourSummary,percentage(0-1),subLocs:[{id,name,busyness,people,capacity,isOpen}]}]} ; CORS Access-Control-Allow-Origin: *",
+    "waitz_location_id": 217,
+    "notes": "Occuspace/Waitz people-counting sensors. Linked from the UW Library home page (lib.uwaterloo.ca/web: \"Real-time occupancy: waitz.io/waterloo\"). The JSON endpoint is undocumented/unofficial: no auth required and verified returning data on 2026-10-29, but it may change or be rate limited, so poll gently (e.g. every 2-5 min), fail soft to the estimate, and credit Waitz/Occuspace. Companion endpoint https://waitz.io/compare/waterloo gives trend text (peak hours, best floor)."
+   },
+   "live_zones": [],
+   "capacity_waitz": 66
+  },
+  {
+   "id": "cgr",
+   "name": "Milton Good Library (Conrad Grebel)",
+   "building": "CGR",
+   "lat": 43.46656,
+   "lng": -80.54525,
+   "weekly_hours": null,
+   "hours_observation": "Not listed on libcal main hours; not verified.",
+   "hours_exceptions": [],
+   "source_url": "https://uwaterloo.ca/grebel/milton-good-library/study-rooms",
+   "live_occupancy": null
+  },
+  {
+   "id": "ren",
+   "name": "Lusi Wong Library (Renison)",
+   "building": "REN",
+   "lat": 43.469002,
+   "lng": -80.547865,
+   "weekly_hours": null,
+   "hours_observation": "Not listed on libcal main hours; not verified.",
+   "hours_exceptions": [],
+   "source_url": "https://uwaterloo.ca/renison/book-library-study-room-form",
+   "live_occupancy": null
+  },
+  {
+   "id": "sju",
+   "name": "St. Jerome's University Library",
+   "building": "SJ1",
+   "lat": 43.468719,
+   "lng": -80.545773,
+   "weekly_hours": null,
+   "hours_observation": "Not listed on libcal main hours; not verified.",
+   "hours_exceptions": [],
+   "source_url": "https://www.sju.ca/studyrooms",
+   "live_occupancy": null
+  }
+ ],
+ "typical_busyness_estimate": {
+  "label": "Estimate, not live",
+  "is_heuristic": true,
+  "description": "Hand-built heuristic (not measured, not fitted to data). Value = typical relative busyness 0-1 for local hour of day (index 0 = 00:00-00:59). Final busyness = hour_by_weekday[day][hour] * term_week_multiplier, shown only when the library is open per weekly_hours; zero outside open hours. Show as Quiet <0.35, Moderate 0.35-0.7, Busy >0.7. If live_occupancy fetch succeeds, prefer it and use this only as fallback.",
+  "hour_by_weekday": {
+   "sun": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.05,
+    0.14,
+    0.27,
+    0.41,
+    0.5,
+    0.54,
+    0.59,
+    0.59,
+    0.54,
+    0.5,
+    0.45,
+    0.41,
+    0.36,
+    0.27,
+    0.18,
+    0.09
+   ],
+   "mon": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.1,
+    0.25,
+    0.45,
+    0.6,
+    0.7,
+    0.65,
+    0.75,
+    0.9,
+    0.95,
+    0.9,
+    0.75,
+    0.55,
+    0.5,
+    0.45,
+    0.35,
+    0.25,
+    0.15
+   ],
+   "tue": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.1,
+    0.25,
+    0.45,
+    0.6,
+    0.7,
+    0.65,
+    0.75,
+    0.9,
+    0.95,
+    0.9,
+    0.75,
+    0.55,
+    0.5,
+    0.45,
+    0.35,
+    0.25,
+    0.15
+   ],
+   "wed": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.1,
+    0.25,
+    0.45,
+    0.6,
+    0.7,
+    0.65,
+    0.75,
+    0.9,
+    0.95,
+    0.9,
+    0.75,
+    0.55,
+    0.5,
+    0.45,
+    0.35,
+    0.25,
+    0.15
+   ],
+   "thu": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.1,
+    0.25,
+    0.45,
+    0.6,
+    0.7,
+    0.65,
+    0.75,
+    0.9,
+    0.95,
+    0.9,
+    0.75,
+    0.55,
+    0.5,
+    0.45,
+    0.35,
+    0.25,
+    0.15
+   ],
+   "fri": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.08,
+    0.2,
+    0.36,
+    0.48,
+    0.56,
+    0.52,
+    0.6,
+    0.72,
+    0.76,
+    0.72,
+    0.6,
+    0.44,
+    0.4,
+    0.36,
+    0.28,
+    0.2,
+    0.12
+   ],
+   "sat": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.03,
+    0.1,
+    0.21,
+    0.32,
+    0.39,
+    0.42,
+    0.45,
+    0.45,
+    0.42,
+    0.39,
+    0.35,
+    0.32,
+    0.28,
+    0.21,
+    0.14,
+    0.07
+   ]
+  },
+  "term_week_multiplier": {
+   "description": "Scale by week of a 13-week term (1-indexed); reading week and exam period are guesses.",
+   "weeks": {
+    "1": 0.6,
+    "2": 0.7,
+    "3": 0.8,
+    "4": 0.85,
+    "5": 0.9,
+    "6": 0.8,
+    "7": 0.9,
+    "8": 0.95,
+    "9": 0.95,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "exam": 1.15,
+    "break_or_between_terms": 0.3
+   },
+   "note": "Cap result at 1.0."
+  },
+  "calibration_note": "One live Waitz reading on Thu 2026-10-29 ~14:20 (week 8 of Fall term): Dana Porter 71%, Davis Centre 92%, Musagetes 27%. The heuristic gives 0.90*0.95=0.86 at Thursday 14:00, so it may overstate Dana Porter and understate Davis. Tune against more Waitz samples if logged."
+ },
+ "generated": "2026-10-29"
+}

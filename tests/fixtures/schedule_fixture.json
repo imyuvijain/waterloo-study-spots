@@ -1,0 +1,15 @@
+[
+ {"term":9999,"subject":"CS","catalog":"135","section":"001","type":"LEC","building":"MC","room":"2065","days":["M","W","F"],"start":"10:30","end":"11:20","start_date":"2026-09-08","end_date":"2026-12-01"},
+ {"term":9999,"subject":"CS","catalog":"135","section":"001","type":"LEC","building":"MC","room":"2065","days":["M","W","F"],"start":"10:30","end":"11:20","start_date":"2026-09-08","end_date":"2026-12-01"},
+ {"term":9999,"subject":"MATH","catalog":"135","section":"001","type":"LEC","building":"MC","room":"2065","days":["T","Th"],"start":"08:30","end":"09:50","start_date":null,"end_date":null},
+ {"term":9999,"subject":"AMATH","catalog":"449","section":"001","type":"LEC","building":"MC","room":"2066","days":["T","Th"],"start":"13:00","end":"14:20","start_date":null,"end_date":null},
+ {"term":9999,"subject":"PHYS","catalog":"449","section":"001","type":"LEC","building":"MC","room":"2066","days":["T","Th"],"start":"13:00","end":"14:20","start_date":null,"end_date":null},
+ {"term":9999,"subject":"CS","catalog":"246","section":"001","type":"LEC","building":"MC","room":"2066","days":["T"],"start":"14:20","end":"15:20","start_date":null,"end_date":null},
+ {"term":9999,"subject":"CS","catalog":"246","section":"002","type":"TUT","building":"MC","room":"2066","days":["T"],"start":"15:00","end":"16:00","start_date":"2026-10-01","end_date":"2026-11-01"},
+ {"term":9999,"subject":"ECE","catalog":"106","section":"001","type":"LEC","building":"DC","room":"1350","days":["F"],"start":"09:00","end":"09:50","start_date":"2026-09-08","end_date":"2026-12-04"},
+ {"term":9999,"subject":"ECE","catalog":"106","section":"002","type":"LEC","building":"DC","room":"1350","days":["F"],"start":"09:50","end":"10:30","start_date":"2026-09-08","end_date":"2026-12-04"},
+ {"term":9999,"subject":"X","catalog":"1","section":"001","type":"LEC","building":"ZZZ","room":"101","days":["M"],"start":"09:00","end":"09:50","start_date":null,"end_date":null},
+ {"term":9999,"subject":"X","catalog":"2","section":"001","type":"LEC","building":null,"room":null,"days":["M"],"start":"09:00","end":"09:50","start_date":null,"end_date":null},
+ {"term":9999,"subject":"X","catalog":"3","section":"001","type":"LEC","building":"MC","room":"TBA","days":["M"],"start":"09:00","end":"09:50","start_date":null,"end_date":null},
+ {"term":9999,"subject":"X","catalog":"4","section":"001","type":"LEC","building":"ONLN","room":"ONLINE","days":["M"],"start":"09:00","end":"09:50","start_date":null,"end_date":null}
+]
