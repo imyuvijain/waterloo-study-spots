@@ -41,8 +41,8 @@ def find_original(room_dir, kind):
     return next((p for ext in ("jpg", "png") if (p := room_dir / f"{kind}.{ext}").exists()), None)
 MANIFEST = ROOT / "web" / "data" / "room_photos.json"
 UA = "campus-lecture-halls-hobby-project (personal, non-commercial; polite 1 req/s)"
-KINDS = {"front": "frontOfRoom", "back": "backOfRoom", "podium": "podium"}  # our key -> ITMS file stem
-THUMB_IDS = {"front": "FrontOfRoom", "back": "BackOfRoom", "podium": "Podium"}
+KINDS = {"front": "frontOfRoom", "back": "backOfRoom"}  # our key -> ITMS file stem
+THUMB_IDS = {"front": "FrontOfRoom", "back": "BackOfRoom"}  # podium photos are deliberately skipped
 
 
 def request(url, data=None):

@@ -1,11 +1,11 @@
 // Classroom photos: parse the manifest written by scripts/scrape_room_photos.py and look photos up by room id.
 // Pure ES module (no DOM). Manifest shape:
-//   { source, rooms: { "STC 1012": { front, back, podium, thumb }, ... }, buildings: { STC: "Science Teaching Complex" } }
+//   { source, rooms: { "STC 1012": { front, back, thumb }, ... }, buildings: { STC: "Science Teaching Complex" } }
 // Paths are relative to the site root. Anything that is not a plain relative path is dropped, so a bad
 // manifest can never make the page load an image from somewhere else.
 
-export const KIND_ORDER = ['front', 'back', 'podium'];
-export const KIND_LABELS = { front: 'Front of room', back: 'Back of room', podium: 'Podium' };
+export const KIND_ORDER = ['front', 'back'];
+export const KIND_LABELS = { front: 'Front of room', back: 'Back of room' };
 
 const SAFE_PATH = /^images\/rooms\/[A-Za-z0-9._\-/]+\.jpe?g$/i;
 

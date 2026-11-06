@@ -13,10 +13,10 @@ const raw = {
   },
 };
 
-test('cleanManifest keeps rooms with photos, in front/back/podium order, with labels', () => {
+test('cleanManifest keeps rooms with photos, in front/back order, podium ignored, with labels', () => {
   const m = cleanManifest(raw);
   assert.deepEqual([...m.keys()], ['STC 1012', 'MC 2065']);
-  assert.deepEqual(m.get('STC 1012').views.map((v) => v.kind), ['front', 'back', 'podium']);
+  assert.deepEqual(m.get('STC 1012').views.map((v) => v.kind), ['front', 'back']);
   assert.equal(m.get('STC 1012').views[0].label, 'Front of room');
   assert.equal(m.get('STC 1012').thumb, 'images/rooms/STC-1012/thumb.jpg');
 });

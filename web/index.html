@@ -3,40 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Open Rooms - free lecture halls at Waterloo</title>
-  <meta name="description" content="Which University of Waterloo rooms have no scheduled class right now? Unofficial map of free rooms.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
+  <title>Waterloo Lecture Halls</title>
+  <meta name="description" content="Which University of Waterloo lecture halls and classrooms are free right now, on a campus map.">
+  <meta name="author" content="Yuvi Jain">
+  <meta property="og:title" content="Waterloo Lecture Halls">
+  <meta property="og:description" content="Which University of Waterloo lecture halls and classrooms are free right now.">
+  <meta property="og:type" content="website">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
         integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link rel="stylesheet" href="css/style.css?v=usage3">
+  <link rel="stylesheet" href="css/style.css?v=min1">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"
           integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g=="
           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script type="module" src="js/app.js?v=usage3"></script>
+  <script type="module" src="js/app.js?v=min1"></script>
 </head>
 <body data-view="map">
   <div id="demo-banner" class="demo-banner" role="alert" hidden>
-    <strong>DEMO DATA</strong> <span>&mdash; not real availability</span> <span class="wide-only">Every room and class below is made up.</span>
+    <strong>Demo data</strong> <span>&mdash; not real availability.</span> <span class="wide-only">Every room and class below is made up.</span>
   </div>
 
   <header class="top">
-    <h1 class="brand">Open rooms<span class="brand-sub">Waterloo campus</span></h1>
+    <h1 class="brand"><a href="./">Waterloo Lecture Halls</a></h1>
 
     <div class="search" role="search">
       <label for="q" class="sr-only">Search buildings and rooms</label>
-      <input id="q" type="search" placeholder="Search a building or room, e.g. MC 2065" autocomplete="off"
+      <input id="q" type="search" placeholder="Search a building or room (e.g. MC 2065)" autocomplete="off"
              role="combobox" aria-expanded="false" aria-controls="q-results" aria-autocomplete="list">
       <ul id="q-results" class="results" role="listbox" hidden></ul>
     </div>
 
-    <div class="views" role="group" aria-label="View">
+    <nav class="views" role="group" aria-label="View">
       <button type="button" data-view="map" aria-pressed="true">Map</button>
       <button type="button" data-view="list" aria-pressed="false" id="view-list">Free rooms now</button>
-      <button type="button" data-view="usage" aria-pressed="false">Busiest &amp; freest</button>
-    </div>
+    </nav>
   </header>
 
   <section class="when" aria-label="Time and filters">
@@ -50,33 +50,34 @@
       <button type="button" id="now-btn" class="now" aria-pressed="true">Now</button>
       <label class="field"><span>Day</span><input type="date" id="date-in"></label>
       <label class="field"><span>Time</span><input type="time" id="time-in" step="300"></label>
-      <label class="field slider"><span>Slide through the day</span>
+      <label class="field slider"><span>Time of day</span>
         <input type="range" id="slider" min="420" max="1320" step="10" aria-describedby="slider-scale">
         <span class="scale" id="slider-scale" aria-hidden="true"><i>7</i><i>10</i><i>13</i><i>16</i><i>19</i><i>22</i></span>
       </label>
     </div>
 
-    <fieldset class="filter">
-      <legend>Show</legend>
-      <label><input type="radio" name="minfree" value="all" checked><span>All rooms</span></label>
-      <label><input type="radio" name="minfree" value="0"><span>Free</span></label>
-      <label><input type="radio" name="minfree" value="30"><span>Free 30+ min</span></label>
-      <label><input type="radio" name="minfree" value="60"><span>Free 1 h+</span></label>
-      <label><input type="radio" name="minfree" value="120"><span>Free 2 h+</span></label>
-    </fieldset>
-    <p id="when-note" class="note" hidden></p>
-
-    <div class="layerbar">
-      <fieldset class="filter" id="layer-toggles">
-        <legend>Map layers</legend>
-        <label><input type="checkbox" id="layer-libs"><span>Libraries</span></label>
-        <label><input type="checkbox" id="layer-spots"><span>Study spots</span></label>
+    <div class="filters">
+      <fieldset class="filter">
+        <legend>Show</legend>
+        <label><input type="radio" name="minfree" value="all" checked><span>All</span></label>
+        <label><input type="radio" name="minfree" value="0"><span>Free</span></label>
+        <label><input type="radio" name="minfree" value="30"><span>30 min+</span></label>
+        <label><input type="radio" name="minfree" value="60"><span>1 h+</span></label>
+        <label><input type="radio" name="minfree" value="120"><span>2 h+</span></label>
       </fieldset>
-      <fieldset class="filter" id="spot-tags" hidden>
-        <legend>Spot tags</legend>
-      </fieldset>
-      <p id="layer-status" class="layer-status" role="status"></p>
+      <div class="layerbar">
+        <fieldset class="filter" id="layer-toggles">
+          <legend>Map</legend>
+          <label><input type="checkbox" id="layer-libs"><span>Libraries</span></label>
+          <label><input type="checkbox" id="layer-spots"><span>Study spots</span></label>
+        </fieldset>
+        <fieldset class="filter" id="spot-tags" hidden>
+          <legend>Spot tags</legend>
+        </fieldset>
+        <p id="layer-status" class="layer-status" role="status"></p>
+      </div>
     </div>
+    <p id="when-note" class="note" hidden></p>
   </section>
 
   <main class="stage">
@@ -85,9 +86,11 @@
   </main>
 
   <footer class="foot">
-    <p><strong>Free = no scheduled class; ad-hoc bookings and exams not included.</strong>
-      Rooms with no scheduled classes at all aren't listed. Seat counts marked "est." are estimates from the largest class scheduled in each room.
-      Unofficial: not affiliated with the University of Waterloo. Times are Toronto time.</p>
+    <p>Made by <a href="https://github.com/imyuvijain" rel="author">Yuvi Jain</a></p>
+    <details class="about">
+      <summary>About the data</summary>
+      <p>"Free" means no class is scheduled. Bookings, events and exams aren't included, and rooms with no classes all term aren't listed. Seat counts marked "est." come from the largest class held in the room. Unofficial; not affiliated with the University of Waterloo. Times are Toronto time.</p>
+    </details>
   </footer>
 
   <noscript><p class="note" style="padding:1rem">This page needs JavaScript to show the map.</p></noscript>

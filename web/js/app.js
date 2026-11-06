@@ -2,7 +2,6 @@ import {
   torontoParts, busyNow, nextBusy, freeForMinutes, formatMinutes, summarizeByBuilding,
 } from './availability.js';
 import { initLayers } from './layers.js';
-import { weeklyUsage, topAndBottom } from './usage.js';
 import { cleanManifest, photosFor, stepIndex } from './photos.js';
 import { cleanSizes, capacityLabel, CAPACITY_NOTE } from './capacity.js';
 import { FALLBACK_BUILDING_NAMES } from './studyspots.js';
@@ -14,8 +13,7 @@ const CAMPUS_RADIUS_KM = 3; // buildings farther than this from the median build
 const CORE_RADIUS_KM = 1; // the initial view fits buildings within this distance of the median building
 const STRIP_START = 7 * 60, STRIP_END = 22 * 60;
 const LIST_CAP = 150;
-const USAGE_TOP = 10;
-const COLOR_NONE = [236, 239, 241], COLOR_ALL = [8, 100, 86];
+const COLOR_NONE = [232, 234, 236], COLOR_ALL = [30, 122, 79];
 const DAY_NAMES = ['', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
@@ -192,9 +190,9 @@ function initMap() {
     let shape, center = [b.lat, b.lng];
     const hasPoly = Array.isArray(b.polygon) && b.polygon.length >= 3;
     if (hasPoly) {
-      shape = L.polygon(b.polygon.map(([lng, lat]) => [lat, lng]), { weight: 1.5, color: '#14212b', fillOpacity: 0.8 });
+      shape = L.polygon(b.polygon.map(([lng, lat]) => [lat, lng]), { weight: 1, color: '#5f6368', fillOpacity: 0.8 });
     } else {
-      shape = L.circleMarker(center, { radius: 11, weight: 1.5, color: '#14212b', fillOpacity: 0.85 });
+      shape = L.circleMarker(center, { radius: 11, weight: 1, color: '#5f6368', fillOpacity: 0.85 });
     }
     shape.on('click', () => selectBuilding(code, { pan: false }));
     shape.addTo(map);
@@ -240,8 +238,8 @@ function updateMap() {
     const sel = state.selected === code;
     l.shape.setStyle({
       fillColor: lerpColor(ratio),
-      color: sel ? '#d6246e' : '#14212b',
-      weight: sel ? 4 : 1.5,
+      color: sel ? '#1a1a1a' : '#5f6368',
+      weight: sel ? 3 : 1,
       dashArray: match === 0 ? '4 4' : null,
       fillOpacity: match === 0 ? 0.5 : 0.82,
     });
@@ -391,8 +389,6 @@ function renderPanel() {
 
   if (state.view === 'list') {
     kids.push(...listView(date, ctx));
-  } else if (state.view === 'usage') {
-    kids.push(...usageView(ctx));
   } else if (layers?.selectedLibrary()) {
     kids.push(...layers.libraryView());
   } else if (state.selected) {
@@ -422,9 +418,9 @@ function overviewView(date) {
   for (const s of Object.values(sum)) { free += s.free; total += s.total; }
   return [
     h('h2', { class: 'panel-title' }, `${free} of ${total} rooms free`),
-    h('p', { class: 'panel-sub' }, 'Select a building on the map, or use search. Darker green means more of its rooms are free.'),
+    h('p', { class: 'panel-sub' }, 'Select a building on the map, or search. Darker green means more of its rooms are free.'),
     legend(),
-    h('button', { type: 'button', class: 'linkish', onclick: () => setView('list') }, 'See the list of free rooms'),
+    h('button', { type: 'button', class: 'linkish', onclick: () => setView('list') }, 'See all free rooms'),
     offCampusList(sum),
   ];
 }
@@ -520,47 +516,6 @@ function listView(date, ctx) {
     out.push(h('button', { type: 'button', class: 'more', onclick: () => { state.listShown += LIST_CAP; renderPanel(); } },
       `Show ${Math.min(LIST_CAP, rows.length - part.length)} more (${rows.length - part.length} left)`));
   }
-  return out;
-}
-
-/* ---------- busiest and freest rooms (weekly) ---------- */
-function usageSection(title, sub, entries, availableMinutes) {
-  const items = entries.map(({ room, hours, percent }, i) => {
-    const b = state.data.buildings[room.building];
-    const li = h('li', { class: 'usage-row clickable', tabindex: '0' },
-      h('div', { class: 'usage-head' },
-        h('span', { class: 'usage-rank', 'aria-hidden': 'true' }, String(i + 1)),
-        h('span', { class: 'room-id' }, room.id, capacityTag(room)),
-        h('span', { class: 'usage-hours' }, `${hours} h`)),
-      h('p', { class: 'room-bldg' }, b?.name || room.building),
-      h('div', { class: 'usage-bar', 'aria-hidden': 'true' }, h('i', { style: `width:${percent}%` })),
-      h('p', { class: 'usage-pct' }, `${percent}% of ${availableMinutes / 60} h in class`));
-    const photo = photoButton(room);
-    if (photo) { li.classList.add('has-photo'); li.append(photo); }
-    const go = () => { setView('map'); selectBuilding(room.building, { pan: true, room: room.id }); };
-    li.addEventListener('click', go);
-    li.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
-    if (!li.classList.contains('has-photo')) li.setAttribute('role', 'button');
-    return li;
-  });
-  return h('section', { class: 'usage-sec', 'aria-label': title },
-    h('h3', null, title), h('p', { class: 'layer-note' }, sub), h('ol', { class: 'usage-list' }, items));
-}
-
-function usageView(ctx) {
-  const { dates, availableMinutes, rows } = weeklyUsage(state.rooms, ctx.dateStr);
-  const { busiest, freest, idle } = topAndBottom(rows, USAGE_TOP);
-  const span = `${prettyDay(dates[0])} to ${prettyDay(dates[dates.length - 1])}`;
-  const out = [
-    h('h2', { class: 'panel-title' }, 'Busiest and freest rooms'),
-    h('p', { class: 'panel-sub' }, `Hours in scheduled class, ${span}, 08:00-22:00 (${availableMinutes / 60} h). Follows the day picked above.`),
-    usageSection(`Top ${USAGE_TOP} busiest`, 'Most scheduled class time this week.', busiest, availableMinutes),
-    usageSection(`Top ${USAGE_TOP} freest`, 'Least scheduled class time this week.', freest, availableMinutes),
-  ];
-  const notes = [];
-  if (idle > 0) notes.push(`${idle} room${idle === 1 ? ' has' : 's have'} no scheduled class at all this week${idle > USAGE_TOP ? `, so the freest list is a tie; it shows the first ${USAGE_TOP} by room number` : ''}.`);
-  notes.push('Every timetabled room counts, including small seminar rooms and labs; room size is not in the data. Ad-hoc bookings and exams are not included.');
-  out.push(h('p', { class: 'usage-note' }, notes.join(' ')));
   return out;
 }
 

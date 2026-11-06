@@ -4,175 +4,146 @@
   "AL 105": {
    "front": "images/rooms/AL-105/front.jpg",
    "back": "images/rooms/AL-105/back.jpg",
-   "podium": "images/rooms/AL-105/podium.jpg",
    "thumb": "images/rooms/AL-105/thumb.jpg"
   },
   "AL 113": {
    "front": "images/rooms/AL-113/front.jpg",
    "back": "images/rooms/AL-113/back.jpg",
-   "podium": "images/rooms/AL-113/podium.jpg",
    "thumb": "images/rooms/AL-113/thumb.jpg"
   },
   "AL 116": {
    "front": "images/rooms/AL-116/front.jpg",
    "back": "images/rooms/AL-116/back.jpg",
-   "podium": "images/rooms/AL-116/podium.jpg",
    "thumb": "images/rooms/AL-116/thumb.jpg"
   },
   "AL 124": {
    "front": "images/rooms/AL-124/front.jpg",
    "back": "images/rooms/AL-124/back.jpg",
-   "podium": "images/rooms/AL-124/podium.jpg",
    "thumb": "images/rooms/AL-124/thumb.jpg"
   },
   "AL 208": {
    "front": "images/rooms/AL-208/front.jpg",
    "back": "images/rooms/AL-208/back.jpg",
-   "podium": "images/rooms/AL-208/podium.jpg",
    "thumb": "images/rooms/AL-208/thumb.jpg"
   },
   "AL 209": {
    "front": "images/rooms/AL-209/front.jpg",
    "back": "images/rooms/AL-209/back.jpg",
-   "podium": "images/rooms/AL-209/podium.jpg",
    "thumb": "images/rooms/AL-209/thumb.jpg"
   },
   "AL 210": {
    "front": "images/rooms/AL-210/front.jpg",
    "back": "images/rooms/AL-210/back.jpg",
-   "podium": "images/rooms/AL-210/podium.jpg",
    "thumb": "images/rooms/AL-210/thumb.jpg"
   },
   "AL 211": {
    "front": "images/rooms/AL-211/front.jpg",
    "back": "images/rooms/AL-211/back.jpg",
-   "podium": "images/rooms/AL-211/podium.jpg",
    "thumb": "images/rooms/AL-211/thumb.jpg"
   },
   "B1 271": {
    "front": "images/rooms/B1-271/front.jpg",
    "back": "images/rooms/B1-271/back.jpg",
-   "podium": "images/rooms/B1-271/podium.jpg",
    "thumb": "images/rooms/B1-271/thumb.jpg"
   },
   "B2 350": {
    "front": "images/rooms/B2-350/front.jpg",
    "back": "images/rooms/B2-350/back.jpg",
-   "podium": "images/rooms/B2-350/podium.jpg",
    "thumb": "images/rooms/B2-350/thumb.jpg"
   },
   "DC 1350": {
    "front": "images/rooms/DC-1350/front.jpg",
    "back": "images/rooms/DC-1350/back.jpg",
-   "podium": "images/rooms/DC-1350/podium.jpg",
    "thumb": "images/rooms/DC-1350/thumb.jpg"
   },
   "DC 1351": {
    "front": "images/rooms/DC-1351/front.jpg",
    "back": "images/rooms/DC-1351/back.jpg",
-   "podium": "images/rooms/DC-1351/podium.jpg",
    "thumb": "images/rooms/DC-1351/thumb.jpg"
   },
   "DWE 1501": {
    "front": "images/rooms/DWE-1501/front.jpg",
    "back": "images/rooms/DWE-1501/back.jpg",
-   "podium": "images/rooms/DWE-1501/podium.jpg",
    "thumb": "images/rooms/DWE-1501/thumb.jpg"
   },
   "DWE 1502": {
    "front": "images/rooms/DWE-1502/front.jpg",
    "back": "images/rooms/DWE-1502/back.jpg",
-   "podium": "images/rooms/DWE-1502/podium.jpg",
    "thumb": "images/rooms/DWE-1502/thumb.jpg"
   },
   "DWE 1515": {
    "front": "images/rooms/DWE-1515/front.jpg",
    "back": "images/rooms/DWE-1515/back.jpg",
-   "podium": "images/rooms/DWE-1515/podium.jpg",
    "thumb": "images/rooms/DWE-1515/thumb.jpg"
   },
   "DWE 2527": {
    "front": "images/rooms/DWE-2527/front.jpg",
    "back": "images/rooms/DWE-2527/back.jpg",
-   "podium": "images/rooms/DWE-2527/podium.jpg",
    "thumb": "images/rooms/DWE-2527/thumb.jpg"
   },
   "DWE 3516": {
    "front": "images/rooms/DWE-3516/front.jpg",
    "back": "images/rooms/DWE-3516/back.jpg",
-   "podium": "images/rooms/DWE-3516/podium.jpg",
    "thumb": "images/rooms/DWE-3516/thumb.jpg"
   },
   "DWE 3517": {
    "front": "images/rooms/DWE-3517/front.jpg",
    "back": "images/rooms/DWE-3517/back.jpg",
-   "podium": "images/rooms/DWE-3517/podium.jpg",
    "thumb": "images/rooms/DWE-3517/thumb.jpg"
   },
   "DWE 3518": {
    "front": "images/rooms/DWE-3518/front.jpg",
    "back": "images/rooms/DWE-3518/back.jpg",
-   "podium": "images/rooms/DWE-3518/podium.jpg",
    "thumb": "images/rooms/DWE-3518/thumb.jpg"
   },
   "DWE 3519": {
    "front": "images/rooms/DWE-3519/front.jpg",
    "back": "images/rooms/DWE-3519/back.jpg",
-   "podium": "images/rooms/DWE-3519/podium.jpg",
    "thumb": "images/rooms/DWE-3519/thumb.jpg"
   },
   "DWE 3522": {
    "front": "images/rooms/DWE-3522/front.jpg",
    "back": "images/rooms/DWE-3522/back.jpg",
-   "podium": "images/rooms/DWE-3522/podium.jpg",
    "thumb": "images/rooms/DWE-3522/thumb.jpg"
   },
   "DWE 3522A": {
    "front": "images/rooms/DWE-3522A/front.jpg",
    "back": "images/rooms/DWE-3522A/back.jpg",
-   "podium": "images/rooms/DWE-3522A/podium.jpg",
    "thumb": "images/rooms/DWE-3522A/thumb.jpg"
   },
   "E2 1732": {
    "front": "images/rooms/E2-1732/front.jpg",
    "back": "images/rooms/E2-1732/back.jpg",
-   "podium": "images/rooms/E2-1732/podium.jpg",
    "thumb": "images/rooms/E2-1732/thumb.jpg"
   },
   "E2 1736": {
    "front": "images/rooms/E2-1736/front.jpg",
    "back": "images/rooms/E2-1736/back.jpg",
-   "podium": "images/rooms/E2-1736/podium.jpg",
    "thumb": "images/rooms/E2-1736/thumb.jpg"
   },
   "EIT 1015": {
    "front": "images/rooms/EIT-1015/front.jpg",
    "back": "images/rooms/EIT-1015/back.jpg",
-   "podium": "images/rooms/EIT-1015/podium.jpg",
    "thumb": "images/rooms/EIT-1015/thumb.jpg"
   },
   "EV1 132": {
    "front": "images/rooms/EV1-132/front.jpg",
    "back": "images/rooms/EV1-132/back.jpg",
-   "podium": "images/rooms/EV1-132/podium.jpg",
    "thumb": "images/rooms/EV1-132/thumb.jpg"
   },
   "EV1 225": {
    "front": "images/rooms/EV1-225/front.jpg",
    "back": "images/rooms/EV1-225/back.jpg",
-   "podium": "images/rooms/EV1-225/podium.jpg",
    "thumb": "images/rooms/EV1-225/thumb.jpg"
   },
   "EV1 350": {
    "front": "images/rooms/EV1-350/front.jpg",
    "back": "images/rooms/EV1-350/back.jpg",
-   "podium": "images/rooms/EV1-350/podium.jpg",
    "thumb": "images/rooms/EV1-350/thumb.jpg"
   },
   "EV2 2002": {
    "front": "images/rooms/EV2-2002/front.jpg",
    "back": "images/rooms/EV2-2002/back.jpg",
-   "podium": "images/rooms/EV2-2002/podium.jpg",
    "thumb": "images/rooms/EV2-2002/thumb.jpg"
   },
   "EV3 1408": {
@@ -183,79 +154,66 @@
   "EV3 3406": {
    "front": "images/rooms/EV3-3406/front.jpg",
    "back": "images/rooms/EV3-3406/back.jpg",
-   "podium": "images/rooms/EV3-3406/podium.jpg",
    "thumb": "images/rooms/EV3-3406/thumb.jpg"
   },
   "EV3 3408": {
    "front": "images/rooms/EV3-3408/front.jpg",
    "back": "images/rooms/EV3-3408/back.jpg",
-   "podium": "images/rooms/EV3-3408/podium.jpg",
    "thumb": "images/rooms/EV3-3408/thumb.jpg"
   },
   "EV3 3412": {
    "front": "images/rooms/EV3-3412/front.jpg",
    "back": "images/rooms/EV3-3412/back.jpg",
-   "podium": "images/rooms/EV3-3412/podium.jpg",
    "thumb": "images/rooms/EV3-3412/thumb.jpg"
   },
   "EV3 4408": {
    "front": "images/rooms/EV3-4408/front.jpg",
    "back": "images/rooms/EV3-4408/back.jpg",
-   "podium": "images/rooms/EV3-4408/podium.jpg",
    "thumb": "images/rooms/EV3-4408/thumb.jpg"
   },
   "EV3 4412": {
    "front": "images/rooms/EV3-4412/front.jpg",
    "back": "images/rooms/EV3-4412/back.jpg",
-   "podium": "images/rooms/EV3-4412/podium.jpg",
    "thumb": "images/rooms/EV3-4412/thumb.jpg"
   },
   "EXP 1689": {
    "front": "images/rooms/EXP-1689/front.jpg",
    "back": "images/rooms/EXP-1689/back.jpg",
-   "podium": "images/rooms/EXP-1689/podium.jpg",
    "thumb": "images/rooms/EXP-1689/thumb.jpg"
   },
   "HH 1101": {
    "front": "images/rooms/HH-1101/front.jpg",
    "back": "images/rooms/HH-1101/back.jpg",
-   "podium": "images/rooms/HH-1101/podium.jpg",
    "thumb": "images/rooms/HH-1101/thumb.jpg"
   },
   "HH 1102": {
    "front": "images/rooms/HH-1102/front.jpg",
    "back": "images/rooms/HH-1102/back.jpg",
-   "podium": "images/rooms/HH-1102/podium.jpg",
    "thumb": "images/rooms/HH-1102/thumb.jpg"
   },
   "HH 1104": {
    "front": "images/rooms/HH-1104/front.jpg",
    "back": "images/rooms/HH-1104/back.jpg",
-   "podium": "images/rooms/HH-1104/podium.jpg",
    "thumb": "images/rooms/HH-1104/thumb.jpg"
   },
   "HH 1106": {
    "front": "images/rooms/HH-1106/front.jpg",
    "back": "images/rooms/HH-1106/back.jpg",
-   "podium": "images/rooms/HH-1106/podium.jpg",
    "thumb": "images/rooms/HH-1106/thumb.jpg"
   },
   "HH 1108": {
    "front": "images/rooms/HH-1108/front.jpg",
    "back": "images/rooms/HH-1108/back.jpg",
-   "podium": "images/rooms/HH-1108/podium.jpg",
    "thumb": "images/rooms/HH-1108/thumb.jpg"
   },
   "HH 119": {
    "front": "images/rooms/HH-119/front.jpg",
    "back": "images/rooms/HH-119/back.jpg",
-   "podium": "images/rooms/HH-119/podium.jpg",
    "thumb": "images/rooms/HH-119/thumb.jpg"
   },
   "HH 123": {
    "front": "images/rooms/HH-123/front.jpg",
    "back": "images/rooms/HH-123/back.jpg",
-   "podium": "images/rooms/HH-123/podium.jpg",
    "thumb": "images/rooms/HH-123/thumb.jpg"
   },
   "HH 124": {
@@ -266,205 +224,171 @@
   "HH 138": {
    "front": "images/rooms/HH-138/front.jpg",
    "back": "images/rooms/HH-138/back.jpg",
-   "podium": "images/rooms/HH-138/podium.jpg",
    "thumb": "images/rooms/HH-138/thumb.jpg"
   },
   "HH 139": {
    "front": "images/rooms/HH-139/front.jpg",
    "back": "images/rooms/HH-139/back.jpg",
-   "podium": "images/rooms/HH-139/podium.jpg",
    "thumb": "images/rooms/HH-139/thumb.jpg"
   },
   "HH 150": {
    "front": "images/rooms/HH-150/front.jpg",
    "back": "images/rooms/HH-150/back.jpg",
-   "podium": "images/rooms/HH-150/podium.jpg",
    "thumb": "images/rooms/HH-150/thumb.jpg"
   },
   "HH 2107": {
    "front": "images/rooms/HH-2107/front.jpg",
    "back": "images/rooms/HH-2107/back.jpg",
-   "podium": "images/rooms/HH-2107/podium.jpg",
    "thumb": "images/rooms/HH-2107/thumb.jpg"
   },
   "HH 227": {
    "front": "images/rooms/HH-227/front.jpg",
    "back": "images/rooms/HH-227/back.jpg",
-   "podium": "images/rooms/HH-227/podium.jpg",
    "thumb": "images/rooms/HH-227/thumb.jpg"
   },
   "HH 259": {
    "front": "images/rooms/HH-259/front.jpg",
    "back": "images/rooms/HH-259/back.jpg",
-   "podium": "images/rooms/HH-259/podium.jpg",
    "thumb": "images/rooms/HH-259/thumb.jpg"
   },
   "HH 334": {
    "front": "images/rooms/HH-334/front.jpg",
    "back": "images/rooms/HH-334/back.jpg",
-   "podium": "images/rooms/HH-334/podium.jpg",
    "thumb": "images/rooms/HH-334/thumb.jpg"
   },
   "HH 336": {
    "front": "images/rooms/HH-336/front.jpg",
    "back": "images/rooms/HH-336/back.jpg",
-   "podium": "images/rooms/HH-336/podium.jpg",
    "thumb": "images/rooms/HH-336/thumb.jpg"
   },
   "HH 344": {
    "front": "images/rooms/HH-344/front.jpg",
    "back": "images/rooms/HH-344/back.jpg",
-   "podium": "images/rooms/HH-344/podium.jpg",
    "thumb": "images/rooms/HH-344/thumb.jpg"
   },
   "HH 345": {
    "front": "images/rooms/HH-345/front.jpg",
    "back": "images/rooms/HH-345/back.jpg",
-   "podium": "images/rooms/HH-345/podium.jpg",
    "thumb": "images/rooms/HH-345/thumb.jpg"
   },
   "M3 1006": {
    "front": "images/rooms/M3-1006/front.jpg",
    "back": "images/rooms/M3-1006/back.jpg",
-   "podium": "images/rooms/M3-1006/podium.jpg",
    "thumb": "images/rooms/M3-1006/thumb.jpg"
   },
   "MC 1056": {
    "front": "images/rooms/MC-1056/front.jpg",
    "back": "images/rooms/MC-1056/back.jpg",
-   "podium": "images/rooms/MC-1056/podium.jpg",
    "thumb": "images/rooms/MC-1056/thumb.jpg"
   },
   "MC 1085": {
    "front": "images/rooms/MC-1085/front.jpg",
    "back": "images/rooms/MC-1085/back.jpg",
-   "podium": "images/rooms/MC-1085/podium.jpg",
    "thumb": "images/rooms/MC-1085/thumb.jpg"
   },
   "MC 2017": {
    "front": "images/rooms/MC-2017/front.jpg",
    "back": "images/rooms/MC-2017/back.jpg",
-   "podium": "images/rooms/MC-2017/podium.jpg",
    "thumb": "images/rooms/MC-2017/thumb.jpg"
   },
   "MC 2034": {
    "front": "images/rooms/MC-2034/front.jpg",
    "back": "images/rooms/MC-2034/back.jpg",
-   "podium": "images/rooms/MC-2034/podium.jpg",
    "thumb": "images/rooms/MC-2034/thumb.jpg"
   },
   "MC 2035": {
    "front": "images/rooms/MC-2035/front.jpg",
    "back": "images/rooms/MC-2035/back.jpg",
-   "podium": "images/rooms/MC-2035/podium.jpg",
    "thumb": "images/rooms/MC-2035/thumb.jpg"
   },
   "MC 2038": {
    "front": "images/rooms/MC-2038/front.jpg",
    "back": "images/rooms/MC-2038/back.jpg",
-   "podium": "images/rooms/MC-2038/podium.jpg",
    "thumb": "images/rooms/MC-2038/thumb.jpg"
   },
   "MC 2054": {
    "front": "images/rooms/MC-2054/front.jpg",
    "back": "images/rooms/MC-2054/back.jpg",
-   "podium": "images/rooms/MC-2054/podium.jpg",
    "thumb": "images/rooms/MC-2054/thumb.jpg"
   },
   "MC 2065": {
    "front": "images/rooms/MC-2065/front.jpg",
    "back": "images/rooms/MC-2065/back.jpg",
-   "podium": "images/rooms/MC-2065/podium.jpg",
    "thumb": "images/rooms/MC-2065/thumb.jpg"
   },
   "MC 2066": {
    "front": "images/rooms/MC-2066/front.jpg",
    "back": "images/rooms/MC-2066/back.jpg",
-   "podium": "images/rooms/MC-2066/podium.jpg",
    "thumb": "images/rooms/MC-2066/thumb.jpg"
   },
   "MC 4020": {
    "front": "images/rooms/MC-4020/front.jpg",
    "back": "images/rooms/MC-4020/back.jpg",
-   "podium": "images/rooms/MC-4020/podium.jpg",
    "thumb": "images/rooms/MC-4020/thumb.jpg"
   },
   "MC 4021": {
    "front": "images/rooms/MC-4021/front.jpg",
    "back": "images/rooms/MC-4021/back.jpg",
-   "podium": "images/rooms/MC-4021/podium.jpg",
    "thumb": "images/rooms/MC-4021/thumb.jpg"
   },
   "MC 4040": {
    "front": "images/rooms/MC-4040/front.jpg",
    "back": "images/rooms/MC-4040/back.jpg",
-   "podium": "images/rooms/MC-4040/podium.jpg",
    "thumb": "images/rooms/MC-4040/thumb.jpg"
   },
   "MC 4041": {
    "front": "images/rooms/MC-4041/front.jpg",
    "back": "images/rooms/MC-4041/back.jpg",
-   "podium": "images/rooms/MC-4041/podium.jpg",
    "thumb": "images/rooms/MC-4041/thumb.jpg"
   },
   "MC 4042": {
    "front": "images/rooms/MC-4042/front.jpg",
    "back": "images/rooms/MC-4042/back.jpg",
-   "podium": "images/rooms/MC-4042/podium.jpg",
    "thumb": "images/rooms/MC-4042/thumb.jpg"
   },
   "MC 4045": {
    "front": "images/rooms/MC-4045/front.jpg",
    "back": "images/rooms/MC-4045/back.jpg",
-   "podium": "images/rooms/MC-4045/podium.jpg",
    "thumb": "images/rooms/MC-4045/thumb.jpg"
   },
   "MC 4058": {
    "front": "images/rooms/MC-4058/front.jpg",
    "back": "images/rooms/MC-4058/back.jpg",
-   "podium": "images/rooms/MC-4058/podium.jpg",
    "thumb": "images/rooms/MC-4058/thumb.jpg"
   },
   "MC 4059": {
    "front": "images/rooms/MC-4059/front.jpg",
    "back": "images/rooms/MC-4059/back.jpg",
-   "podium": "images/rooms/MC-4059/podium.jpg",
    "thumb": "images/rooms/MC-4059/thumb.jpg"
   },
   "MC 4060": {
    "front": "images/rooms/MC-4060/front.jpg",
    "back": "images/rooms/MC-4060/back.jpg",
-   "podium": "images/rooms/MC-4060/podium.jpg",
    "thumb": "images/rooms/MC-4060/thumb.jpg"
   },
   "MC 4061": {
    "front": "images/rooms/MC-4061/front.jpg",
    "back": "images/rooms/MC-4061/back.jpg",
-   "podium": "images/rooms/MC-4061/podium.jpg",
    "thumb": "images/rooms/MC-4061/thumb.jpg"
   },
   "MC 4063": {
    "front": "images/rooms/MC-4063/front.jpg",
    "back": "images/rooms/MC-4063/back.jpg",
-   "podium": "images/rooms/MC-4063/podium.jpg",
    "thumb": "images/rooms/MC-4063/thumb.jpg"
   },
   "MC 4064": {
    "front": "images/rooms/MC-4064/front.jpg",
    "back": "images/rooms/MC-4064/back.jpg",
-   "podium": "images/rooms/MC-4064/podium.jpg",
    "thumb": "images/rooms/MC-4064/thumb.jpg"
   },
   "ML 242": {
    "front": "images/rooms/ML-242/front.jpg",
    "back": "images/rooms/ML-242/back.jpg",
-   "podium": "images/rooms/ML-242/podium.jpg",
    "thumb": "images/rooms/ML-242/thumb.jpg"
   },
   "ML 246": {
    "front": "images/rooms/ML-246/front.jpg",
    "back": "images/rooms/ML-246/back.jpg",
-   "podium": "images/rooms/ML-246/podium.jpg",
    "thumb": "images/rooms/ML-246/thumb.jpg"
   },
   "ML 311": {
@@ -480,67 +404,56 @@
   "ML 349": {
    "front": "images/rooms/ML-349/front.jpg",
    "back": "images/rooms/ML-349/back.jpg",
-   "podium": "images/rooms/ML-349/podium.jpg",
    "thumb": "images/rooms/ML-349/thumb.jpg"
   },
   "ML 354": {
    "front": "images/rooms/ML-354/front.jpg",
    "back": "images/rooms/ML-354/back.jpg",
-   "podium": "images/rooms/ML-354/podium.jpg",
    "thumb": "images/rooms/ML-354/thumb.jpg"
   },
   "OPT 1129": {
    "front": "images/rooms/OPT-1129/front.jpg",
    "back": "images/rooms/OPT-1129/back.jpg",
-   "podium": "images/rooms/OPT-1129/podium.jpg",
    "thumb": "images/rooms/OPT-1129/thumb.jpg"
   },
   "OPT 309": {
    "front": "images/rooms/OPT-309/front.jpg",
    "back": "images/rooms/OPT-309/back.jpg",
-   "podium": "images/rooms/OPT-309/podium.jpg",
    "thumb": "images/rooms/OPT-309/thumb.jpg"
   },
   "OPT 347": {
    "front": "images/rooms/OPT-347/front.jpg",
    "back": "images/rooms/OPT-347/back.jpg",
-   "podium": "images/rooms/OPT-347/podium.jpg",
    "thumb": "images/rooms/OPT-347/thumb.jpg"
   },
   "OPT 401": {
    "front": "images/rooms/OPT-401/front.jpg",
    "back": "images/rooms/OPT-401/back.jpg",
-   "podium": "images/rooms/OPT-401/podium.jpg",
    "thumb": "images/rooms/OPT-401/thumb.jpg"
   },
   "PAS 1229": {
    "front": "images/rooms/PAS-1229/front.jpg",
    "back": "images/rooms/PAS-1229/back.jpg",
-   "podium": "images/rooms/PAS-1229/podium.jpg",
    "thumb": "images/rooms/PAS-1229/thumb.jpg"
   },
   "PAS 1241": {
    "front": "images/rooms/PAS-1241/front.jpg",
    "back": "images/rooms/PAS-1241/back.jpg",
-   "podium": "images/rooms/PAS-1241/podium.jpg",
    "thumb": "images/rooms/PAS-1241/thumb.jpg"
   },
   "PAS 2083": {
    "front": "images/rooms/PAS-2083/front.jpg",
    "back": "images/rooms/PAS-2083/back.jpg",
-   "podium": "images/rooms/PAS-2083/podium.jpg",
    "thumb": "images/rooms/PAS-2083/thumb.jpg"
   },
   "PAS 2084": {
    "front": "images/rooms/PAS-2084/front.jpg",
    "back": "images/rooms/PAS-2084/back.jpg",
-   "podium": "images/rooms/PAS-2084/podium.jpg",
    "thumb": "images/rooms/PAS-2084/thumb.jpg"
   },
   "PAS 2085": {
    "front": "images/rooms/PAS-2085/front.jpg",
    "back": "images/rooms/PAS-2085/back.jpg",
-   "podium": "images/rooms/PAS-2085/podium.jpg",
    "thumb": "images/rooms/PAS-2085/thumb.jpg"
   },
   "PAS 2086": {
@@ -551,229 +464,191 @@
   "PHY 145": {
    "front": "images/rooms/PHY-145/front.jpg",
    "back": "images/rooms/PHY-145/back.jpg",
-   "podium": "images/rooms/PHY-145/podium.jpg",
    "thumb": "images/rooms/PHY-145/thumb.jpg"
   },
   "PHY 150": {
    "front": "images/rooms/PHY-150/front.jpg",
    "back": "images/rooms/PHY-150/back.jpg",
-   "podium": "images/rooms/PHY-150/podium.jpg",
    "thumb": "images/rooms/PHY-150/thumb.jpg"
   },
   "PHY 235": {
    "front": "images/rooms/PHY-235/front.jpg",
    "back": "images/rooms/PHY-235/back.jpg",
-   "podium": "images/rooms/PHY-235/podium.jpg",
    "thumb": "images/rooms/PHY-235/thumb.jpg"
   },
   "PHY 313": {
    "front": "images/rooms/PHY-313/front.jpg",
    "back": "images/rooms/PHY-313/back.jpg",
-   "podium": "images/rooms/PHY-313/podium.jpg",
    "thumb": "images/rooms/PHY-313/thumb.jpg"
   },
   "QNC 1502": {
    "front": "images/rooms/QNC-1502/front.jpg",
    "back": "images/rooms/QNC-1502/back.jpg",
-   "podium": "images/rooms/QNC-1502/podium.jpg",
    "thumb": "images/rooms/QNC-1502/thumb.jpg"
   },
   "QNC 1506": {
    "front": "images/rooms/QNC-1506/front.jpg",
    "back": "images/rooms/QNC-1506/back.jpg",
-   "podium": "images/rooms/QNC-1506/podium.jpg",
    "thumb": "images/rooms/QNC-1506/thumb.jpg"
   },
   "QNC 1507": {
    "front": "images/rooms/QNC-1507/front.jpg",
    "back": "images/rooms/QNC-1507/back.jpg",
-   "podium": "images/rooms/QNC-1507/podium.jpg",
    "thumb": "images/rooms/QNC-1507/thumb.jpg"
   },
   "QNC 2501": {
    "front": "images/rooms/QNC-2501/front.jpg",
    "back": "images/rooms/QNC-2501/back.jpg",
-   "podium": "images/rooms/QNC-2501/podium.jpg",
    "thumb": "images/rooms/QNC-2501/thumb.jpg"
   },
   "QNC 2502": {
    "front": "images/rooms/QNC-2502/front.jpg",
    "back": "images/rooms/QNC-2502/back.jpg",
-   "podium": "images/rooms/QNC-2502/podium.jpg",
    "thumb": "images/rooms/QNC-2502/thumb.jpg"
   },
   "RCH 101": {
    "front": "images/rooms/RCH-101/front.jpg",
    "back": "images/rooms/RCH-101/back.jpg",
-   "podium": "images/rooms/RCH-101/podium.jpg",
    "thumb": "images/rooms/RCH-101/thumb.jpg"
   },
   "RCH 103": {
    "front": "images/rooms/RCH-103/front.jpg",
    "back": "images/rooms/RCH-103/back.jpg",
-   "podium": "images/rooms/RCH-103/podium.jpg",
    "thumb": "images/rooms/RCH-103/thumb.jpg"
   },
   "RCH 105": {
    "front": "images/rooms/RCH-105/front.jpg",
    "back": "images/rooms/RCH-105/back.jpg",
-   "podium": "images/rooms/RCH-105/podium.jpg",
    "thumb": "images/rooms/RCH-105/thumb.jpg"
   },
   "RCH 106": {
    "front": "images/rooms/RCH-106/front.jpg",
    "back": "images/rooms/RCH-106/back.jpg",
-   "podium": "images/rooms/RCH-106/podium.jpg",
    "thumb": "images/rooms/RCH-106/thumb.jpg"
   },
   "RCH 109": {
    "front": "images/rooms/RCH-109/front.jpg",
    "back": "images/rooms/RCH-109/back.jpg",
-   "podium": "images/rooms/RCH-109/podium.jpg",
    "thumb": "images/rooms/RCH-109/thumb.jpg"
   },
   "RCH 110": {
    "front": "images/rooms/RCH-110/front.jpg",
    "back": "images/rooms/RCH-110/back.jpg",
-   "podium": "images/rooms/RCH-110/podium.jpg",
    "thumb": "images/rooms/RCH-110/thumb.jpg"
   },
   "RCH 112": {
    "front": "images/rooms/RCH-112/front.jpg",
    "back": "images/rooms/RCH-112/back.jpg",
-   "podium": "images/rooms/RCH-112/podium.jpg",
    "thumb": "images/rooms/RCH-112/thumb.jpg"
   },
   "RCH 204": {
    "front": "images/rooms/RCH-204/front.jpg",
    "back": "images/rooms/RCH-204/back.jpg",
-   "podium": "images/rooms/RCH-204/podium.jpg",
    "thumb": "images/rooms/RCH-204/thumb.jpg"
   },
   "RCH 205": {
    "front": "images/rooms/RCH-205/front.jpg",
    "back": "images/rooms/RCH-205/back.jpg",
-   "podium": "images/rooms/RCH-205/podium.jpg",
    "thumb": "images/rooms/RCH-205/thumb.jpg"
   },
   "RCH 206": {
    "front": "images/rooms/RCH-206/front.jpg",
    "back": "images/rooms/RCH-206/back.jpg",
-   "podium": "images/rooms/RCH-206/podium.jpg",
    "thumb": "images/rooms/RCH-206/thumb.jpg"
   },
   "RCH 207": {
    "front": "images/rooms/RCH-207/front.jpg",
    "back": "images/rooms/RCH-207/back.jpg",
-   "podium": "images/rooms/RCH-207/podium.jpg",
    "thumb": "images/rooms/RCH-207/thumb.jpg"
   },
   "RCH 208": {
    "front": "images/rooms/RCH-208/front.jpg",
    "back": "images/rooms/RCH-208/back.jpg",
-   "podium": "images/rooms/RCH-208/podium.jpg",
    "thumb": "images/rooms/RCH-208/thumb.jpg"
   },
   "RCH 209": {
    "front": "images/rooms/RCH-209/front.jpg",
    "back": "images/rooms/RCH-209/back.jpg",
-   "podium": "images/rooms/RCH-209/podium.jpg",
    "thumb": "images/rooms/RCH-209/thumb.jpg"
   },
   "RCH 211": {
    "front": "images/rooms/RCH-211/front.jpg",
    "back": "images/rooms/RCH-211/back.jpg",
-   "podium": "images/rooms/RCH-211/podium.jpg",
    "thumb": "images/rooms/RCH-211/thumb.jpg"
   },
   "RCH 212": {
    "front": "images/rooms/RCH-212/front.jpg",
    "back": "images/rooms/RCH-212/back.jpg",
-   "podium": "images/rooms/RCH-212/podium.jpg",
    "thumb": "images/rooms/RCH-212/thumb.jpg"
   },
   "RCH 301": {
    "front": "images/rooms/RCH-301/front.jpg",
    "back": "images/rooms/RCH-301/back.jpg",
-   "podium": "images/rooms/RCH-301/podium.jpg",
    "thumb": "images/rooms/RCH-301/thumb.jpg"
   },
   "RCH 302": {
    "front": "images/rooms/RCH-302/front.jpg",
    "back": "images/rooms/RCH-302/back.jpg",
-   "podium": "images/rooms/RCH-302/podium.jpg",
    "thumb": "images/rooms/RCH-302/thumb.jpg"
   },
   "RCH 305": {
    "front": "images/rooms/RCH-305/front.jpg",
    "back": "images/rooms/RCH-305/back.jpg",
-   "podium": "images/rooms/RCH-305/podium.jpg",
    "thumb": "images/rooms/RCH-305/thumb.jpg"
   },
   "RCH 306": {
    "front": "images/rooms/RCH-306/front.jpg",
    "back": "images/rooms/RCH-306/back.jpg",
-   "podium": "images/rooms/RCH-306/podium.jpg",
    "thumb": "images/rooms/RCH-306/thumb.jpg"
   },
   "RCH 307": {
    "front": "images/rooms/RCH-307/front.jpg",
    "back": "images/rooms/RCH-307/back.jpg",
-   "podium": "images/rooms/RCH-307/podium.jpg",
    "thumb": "images/rooms/RCH-307/thumb.jpg"
   },
   "RCH 308": {
    "front": "images/rooms/RCH-308/front.jpg",
    "back": "images/rooms/RCH-308/back.jpg",
-   "podium": "images/rooms/RCH-308/podium.jpg",
    "thumb": "images/rooms/RCH-308/thumb.jpg"
   },
   "RCH 309": {
    "front": "images/rooms/RCH-309/front.jpg",
    "back": "images/rooms/RCH-309/back.jpg",
-   "podium": "images/rooms/RCH-309/podium.jpg",
    "thumb": "images/rooms/RCH-309/thumb.jpg"
   },
   "STC 0010": {
    "front": "images/rooms/STC-0010/front.jpg",
    "back": "images/rooms/STC-0010/back.jpg",
-   "podium": "images/rooms/STC-0010/podium.jpg",
    "thumb": "images/rooms/STC-0010/thumb.jpg"
   },
   "STC 0020": {
    "front": "images/rooms/STC-0020/front.jpg",
    "back": "images/rooms/STC-0020/back.jpg",
-   "podium": "images/rooms/STC-0020/podium.jpg",
    "thumb": "images/rooms/STC-0020/thumb.jpg"
   },
   "STC 0040": {
    "front": "images/rooms/STC-0040/front.jpg",
    "back": "images/rooms/STC-0040/back.jpg",
-   "podium": "images/rooms/STC-0040/podium.jpg",
    "thumb": "images/rooms/STC-0040/thumb.jpg"
   },
   "STC 0050": {
    "front": "images/rooms/STC-0050/front.jpg",
    "back": "images/rooms/STC-0050/back.jpg",
-   "podium": "images/rooms/STC-0050/podium.jpg",
    "thumb": "images/rooms/STC-0050/thumb.jpg"
   },
   "STC 0060": {
    "front": "images/rooms/STC-0060/front.jpg",
    "back": "images/rooms/STC-0060/back.jpg",
-   "podium": "images/rooms/STC-0060/podium.jpg",
    "thumb": "images/rooms/STC-0060/thumb.jpg"
   },
   "STC 1012": {
    "front": "images/rooms/STC-1012/front.jpg",
    "back": "images/rooms/STC-1012/back.jpg",
-   "podium": "images/rooms/STC-1012/podium.jpg",
    "thumb": "images/rooms/STC-1012/thumb.jpg"
   },
   "UTD 105": {
    "front": "images/rooms/UTD-105/front.jpg",
    "back": "images/rooms/UTD-105/back.jpg",
-   "podium": "images/rooms/UTD-105/podium.jpg",
    "thumb": "images/rooms/UTD-105/thumb.jpg"
   }
  },
