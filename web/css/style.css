@@ -193,6 +193,43 @@ button { cursor: pointer; }
 }
 .tick { position: absolute; top: -4px; bottom: -4px; width: 3px; margin-left: -1.5px; background: var(--select); border-radius: 2px; }
 
+/* ---- estimated capacity ---- */
+.cap-est { margin-left: 0.45rem; font-size: 0.78rem; font-weight: 600; letter-spacing: 0; color: var(--ink-2); white-space: nowrap; cursor: help; }
+.usage-head .room-id { white-space: nowrap; }
+.usage-row .cap-est { display: block; margin-left: 0; line-height: 1.2; }
+
+/* ---- room photos ---- */
+.room.has-photo, .usage-row.has-photo { display: grid; grid-template-columns: minmax(0, 1fr) 5.2rem; column-gap: 0.7rem; align-items: start; }
+.room.has-photo > *, .usage-row.has-photo > * { grid-column: 1; }
+.room.has-photo > .room-photo, .usage-row.has-photo > .room-photo { grid-column: 2; grid-row: 1 / span 5; }
+.room-photo {
+  position: relative; width: 5.2rem; height: 3.9rem; padding: 0; border: 1.5px solid var(--line); border-radius: 8px;
+  overflow: hidden; background: var(--free-bg); cursor: zoom-in;
+}
+.room-photo:hover { border-color: var(--ink-2); }
+.room-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.room-photo-n {
+  position: absolute; right: 3px; bottom: 3px; min-width: 1.15rem; padding: 0 0.25rem; border-radius: 999px;
+  background: var(--ink); color: #fff; font-size: 0.7rem; font-weight: 700; line-height: 1.2rem; text-align: center;
+}
+.photo-dialog {
+  width: min(92vw, 62rem); max-height: 94dvh; padding: 0.9rem 1rem 1rem; border: 0; border-radius: 12px;
+  background: var(--panel); color: var(--ink); box-shadow: 0 20px 60px rgb(0 0 0 / 0.45);
+}
+.photo-dialog::backdrop { background: rgb(10 20 26 / 0.72); }
+.photo-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 0.6rem; }
+.photo-head h2 { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
+.photo-close { background: none; border: 2px solid var(--line); border-radius: 999px; width: 2.2rem; height: 2.2rem; font-size: 1.4rem; line-height: 1; }
+.photo-close:hover { border-color: var(--ink-2); }
+.photo-stage { background: #0d171d; border-radius: 8px; display: grid; place-items: center; }
+.photo-big { display: block; max-width: 100%; max-height: min(66dvh, 44rem); object-fit: contain; }
+.photo-cap { margin-top: 0.5rem; font-weight: 700; }
+.photo-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem; }
+.photo-tab { padding: 0.35rem 0.8rem; border-radius: 999px; border: 2px solid var(--line); background: #fff; font-weight: 600; font-size: 0.88rem; }
+.photo-tab[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.photo-tab[aria-pressed="true"]::before { content: '\2713\00a0'; }
+.photo-src { margin-top: 0.6rem; font-size: 0.8rem; color: var(--ink-2); }
+
 /* ---- busiest and freest rooms ---- */
 .usage-sec { margin-top: 1.1rem; }
 .usage-sec h3 { font-size: 0.95rem; }

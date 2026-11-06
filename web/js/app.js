@@ -3,6 +3,8 @@ import {
 } from './availability.js';
 import { initLayers } from './layers.js';
 import { weeklyUsage, topAndBottom } from './usage.js';
+import { cleanManifest, photosFor, stepIndex } from './photos.js';
+import { cleanSizes, capacityLabel, CAPACITY_NOTE } from './capacity.js';
 import { FALLBACK_BUILDING_NAMES } from './studyspots.js';
 
 /* ---------- constants ---------- */
@@ -30,6 +32,8 @@ const state = {
   selected: null, // building code
   highlightRoom: null,
   listShown: LIST_CAP,
+  photos: new Map(), // room id -> { views, thumb }, from data/room_photos.json (optional)
+  sizes: new Map(), // room id -> estimated seats, from data/room_sizes.json (optional)
 };
 
 const $ = (id) => document.getElementById(id);
@@ -280,6 +284,62 @@ function strip(room, dateStr, weekday, minutes) {
   return el;
 }
 
+/* ---------- estimated capacity ---------- */
+function capacityTag(room) {
+  const label = capacityLabel(state.sizes, room.id);
+  return label ? h('span', { class: 'cap-est', title: CAPACITY_NOTE }, label) : null;
+}
+
+/* ---------- room photos ---------- */
+function photoButton(room) {
+  const p = photosFor(state.photos, room.id);
+  if (!p) return null;
+  const btn = h('button', {
+    type: 'button', class: 'room-photo', 'aria-label': `View photos of ${room.id}`,
+    onclick: (e) => { e.stopPropagation(); openPhotos(room, btn); },
+    onkeydown: (e) => e.stopPropagation(), // keep Enter/Space on the button from triggering the row
+  }, h('img', { src: p.thumb, alt: '', loading: 'lazy', decoding: 'async' }),
+  p.views.length > 1 ? h('span', { class: 'room-photo-n', 'aria-hidden': 'true' }, String(p.views.length)) : null);
+  return btn;
+}
+
+function openPhotos(room, opener) {
+  const p = photosFor(state.photos, room.id);
+  if (!p) return;
+  const bName = state.data.buildings[room.building]?.name || room.building;
+  let idx = 0;
+  const dlg = h('dialog', { class: 'photo-dialog', 'aria-label': `Photos of ${room.id}` });
+  const img = h('img', { class: 'photo-big', alt: '' });
+  const cap = h('p', { class: 'photo-cap' });
+  const tabs = h('div', { class: 'photo-tabs', role: 'group', 'aria-label': 'Photo view' });
+  const show = (i) => {
+    idx = stepIndex(i, p.views.length, 0);
+    const v = p.views[idx];
+    img.src = v.src;
+    img.alt = `${v.label}, ${room.id}`;
+    cap.textContent = `${v.label}${p.views.length > 1 ? ` (${idx + 1} of ${p.views.length})` : ''}`;
+    [...tabs.children].forEach((b, j) => b.setAttribute('aria-pressed', String(j === idx)));
+  };
+  p.views.forEach((v, i) => tabs.append(h('button', { type: 'button', class: 'photo-tab', onclick: () => show(i) }, v.label)));
+  dlg.append(
+    h('div', { class: 'photo-head' },
+      h('div', null, h('h2', null, room.id), h('p', { class: 'room-bldg' }, bName, capacityLabel(state.sizes, room.id) ? ` · ${capacityLabel(state.sizes, room.id)}` : '')),
+      h('button', { type: 'button', class: 'photo-close', 'aria-label': 'Close photos', onclick: () => dlg.close() }, '\u00d7')),
+    h('div', { class: 'photo-stage' }, img),
+    cap, p.views.length > 1 ? tabs : null,
+    h('p', { class: 'photo-src' }, 'Photos: UW Instructional Technologies and Media Services.'));
+  dlg.addEventListener('keydown', (e) => {
+    if (p.views.length < 2) return;
+    if (e.key === 'ArrowRight') { e.preventDefault(); show(stepIndex(idx, p.views.length, 1)); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); show(stepIndex(idx, p.views.length, -1)); }
+  });
+  dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); }); // click on the backdrop
+  dlg.addEventListener('close', () => { dlg.remove(); if (opener?.isConnected) opener.focus({ preventScroll: true }); });
+  document.body.append(dlg);
+  show(0);
+  dlg.showModal();
+}
+
 /* ---------- room row ---------- */
 function roomRow(room, status, ctx, { showBuilding = false } = {}) {
   const free = status.free;
@@ -292,7 +352,7 @@ function roomRow(room, status, ctx, { showBuilding = false } = {}) {
   }
   const li = h('li', { class: `room ${free ? 'is-free' : 'is-busy'}`, 'data-room': room.id },
     h('div', { class: 'room-head' },
-      h('span', { class: 'room-id' }, showBuilding ? room.id : room.room),
+      h('span', { class: 'room-id' }, showBuilding ? room.id : room.room, capacityTag(room)),
       h('span', { class: 'badge' }, h('span', { class: 'badge-ico', 'aria-hidden': 'true' }, free ? '✓' : '■'), free ? 'Free' : 'Busy'),
     ),
     h('p', { class: 'room-detail' }, detail),
@@ -304,6 +364,8 @@ function roomRow(room, status, ctx, { showBuilding = false } = {}) {
     const b = state.data.buildings[room.building];
     li.insertBefore(h('p', { class: 'room-bldg' }, b?.name || room.building), li.children[1]);
   }
+  const photo = photoButton(room);
+  if (photo) { li.classList.add('has-photo'); li.append(photo); }
   return li;
 }
 
@@ -451,7 +513,7 @@ function listView(date, ctx) {
     const go = () => { setView('map'); selectBuilding(r.building, { pan: true, room: r.id }); };
     li.addEventListener('click', go);
     li.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
-    li.setAttribute('role', 'button');
+    if (!li.classList.contains('has-photo')) li.setAttribute('role', 'button'); // a photo button inside a role=button row would nest controls
     return li;
   })));
   if (rows.length > part.length) {
@@ -465,17 +527,20 @@ function listView(date, ctx) {
 function usageSection(title, sub, entries, availableMinutes) {
   const items = entries.map(({ room, hours, percent }, i) => {
     const b = state.data.buildings[room.building];
-    const li = h('li', { class: 'usage-row clickable', tabindex: '0', role: 'button' },
+    const li = h('li', { class: 'usage-row clickable', tabindex: '0' },
       h('div', { class: 'usage-head' },
         h('span', { class: 'usage-rank', 'aria-hidden': 'true' }, String(i + 1)),
-        h('span', { class: 'room-id' }, room.id),
+        h('span', { class: 'room-id' }, room.id, capacityTag(room)),
         h('span', { class: 'usage-hours' }, `${hours} h`)),
       h('p', { class: 'room-bldg' }, b?.name || room.building),
       h('div', { class: 'usage-bar', 'aria-hidden': 'true' }, h('i', { style: `width:${percent}%` })),
       h('p', { class: 'usage-pct' }, `${percent}% of ${availableMinutes / 60} h in class`));
+    const photo = photoButton(room);
+    if (photo) { li.classList.add('has-photo'); li.append(photo); }
     const go = () => { setView('map'); selectBuilding(room.building, { pan: true, room: room.id }); };
     li.addEventListener('click', go);
     li.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+    if (!li.classList.contains('has-photo')) li.setAttribute('role', 'button');
     return li;
   });
   return h('section', { class: 'usage-sec', 'aria-label': title },
@@ -690,6 +755,8 @@ async function boot() {
     return;
   }
   state.rooms = state.data.rooms;
+  try { state.photos = cleanManifest(await loadJson('data/room_photos.json')); } catch { /* photos are optional */ }
+  try { state.sizes = cleanSizes(await loadJson('data/room_sizes.json')); } catch { /* estimates are optional */ }
   for (const r of state.rooms) {
     if (!state.roomsByBuilding.has(r.building)) state.roomsByBuilding.set(r.building, []);
     state.roomsByBuilding.get(r.building).push(r);
